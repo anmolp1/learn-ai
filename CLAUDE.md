@@ -12,7 +12,7 @@ tracks/                    # Role-specific standalone programs (each has its own
   builder/                 # 6 sessions (0-5), 2.5 weeks
   security/                # Coming soon (placeholder)
   marketing/               # Coming soon (placeholder)
-curriculum/                # Legacy/shared curriculum (5-session generic structure)
+curriculum/                # [Deprecated] Legacy shared curriculum — do not add content here
 capstone/                  # Shared capstone guidelines and showcase
 resources/                 # Shared resources (prompting guide, tool comparison)
 ```

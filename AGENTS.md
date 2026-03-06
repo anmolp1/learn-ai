@@ -9,7 +9,7 @@ A Markdown-based curriculum repository for an open-source AI bootcamp called **L
 ## Structure at a Glance
 
 - `tracks/<track-name>/` — Standalone role-specific programs, each with their own `curriculum/` and `capstone/`
-- `curriculum/` — Legacy shared curriculum (generic 5-session structure)
+- `curriculum/` — [Deprecated] Legacy shared curriculum — superseded by track-specific curricula
 - `resources/` — Shared references (prompting guide, tool comparison)
 - `instructor/` — Facilitator materials for running cohorts
 - `capstone/` — Shared capstone project guidelines and showcase

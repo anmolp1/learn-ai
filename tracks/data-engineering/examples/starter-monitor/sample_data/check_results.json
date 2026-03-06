@@ -1,0 +1,32 @@
+[
+  {
+    "city": "Seattle",
+    "temperature": 58.2,
+    "humidity": 72,
+    "timestamp": "2026-03-06T08:00:00Z"
+  },
+  {
+    "city": "Portland",
+    "temperature": 55.1,
+    "humidity": 68,
+    "timestamp": "2026-03-06T08:15:00Z"
+  },
+  {
+    "city": null,
+    "temperature": 61.4,
+    "humidity": 65,
+    "timestamp": "2026-03-06T08:30:00Z"
+  },
+  {
+    "city": "San Francisco",
+    "temperature": null,
+    "humidity": 80,
+    "timestamp": "2026-03-06T09:00:00Z"
+  },
+  {
+    "city": "Denver",
+    "temperature": 42.7,
+    "humidity": 35,
+    "timestamp": "2026-03-05T12:00:00Z"
+  }
+]

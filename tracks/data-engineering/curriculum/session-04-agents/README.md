@@ -58,6 +58,13 @@ Discuss guardrails:
 - When to page a human
 
 ### Practice (25 min)
+
+> **Choose your path based on your experience level:**
+>
+> **If this is new to you** — Start from the [starter monitor](../../examples/starter-monitor/). Copy it into your capstone repo, run it with sample data, then adapt the checks to match your pipeline's data.
+>
+> **If you're experienced** — Build your monitoring from scratch. Add schema drift detection, custom anomaly thresholds, or multi-table checks. Use the Claude API directly for classification.
+
 Participants add monitoring to their capstone:
 - At minimum: 3 data quality checks + alerting
 - Stretch: AI-powered anomaly classification
@@ -83,6 +90,10 @@ Add monitoring and automation to your capstone pipeline:
 - Build a simple dashboard or summary report
 
 Push to GitHub, share in community with `#de-session4`.
+
+**Cost Check:** Open your [GCP Billing Dashboard](https://console.cloud.google.com/billing) and note your current spend in your learning journal. Compare with last session.
+
+> **Falling behind?** Copy the [starter monitor](../../examples/starter-monitor/) into your capstone repo — it gives you working quality checks and a Claude API wrapper out of the box. See [Checkpoints](../../resources/checkpoints.md) to catch up on pipeline and infrastructure too.
 
 ## Resources
 - [Claude API Documentation](https://docs.anthropic.com/en/api/getting-started)

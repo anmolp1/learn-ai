@@ -66,9 +66,9 @@ tracks/
 │   └── capstone/           # Builder-specific project guidelines
 ├── security/               # Coming soon
 └── marketing/              # Coming soon
-curriculum/                 # Shared curriculum overview
+curriculum/                 # [Deprecated] Generic overview — use track-specific curricula instead
 capstone/                   # Shared capstone guidelines and showcase
-resources/                  # Shared resources (prompting guide, tool comparison)
+resources/                  # Shared resources (prompting guide, tool comparison, tool swap guide)
 ```
 
 ## Philosophy

@@ -1,3 +1,5 @@
+> **This directory is deprecated.** The generic curriculum here has been replaced by track-specific curricula. Go to your track: [Data Engineering](../tracks/data-engineering/curriculum/) | [Builder](../tracks/builder/curriculum/). See [DEPRECATED.md](DEPRECATED.md) for details.
+
 # Curriculum Overview
 
 ## Program Philosophy

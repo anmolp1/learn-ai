@@ -1,0 +1,68 @@
+# =============================================================================
+# GitHub Actions Workflow: Run Tests on Push and Pull Request
+# =============================================================================
+# This workflow automatically runs your Python test suite whenever code is
+# pushed to main or a pull request is opened against main. Copy this file
+# into your repository at .github/workflows/test.yml to enable it.
+# =============================================================================
+
+# The name that appears in the GitHub Actions tab of your repository.
+name: Run Tests
+
+# "on" defines WHEN this workflow runs.
+# We trigger on two events:
+#   - push to main: runs tests after code is merged
+#   - pull_request to main: runs tests BEFORE code is merged (acts as a gate)
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+# "jobs" defines WHAT work to perform. A workflow can have multiple jobs,
+# but we only need one: run the test suite.
+jobs:
+
+  # Job ID -- you can name this anything. "test" is simple and descriptive.
+  test:
+
+    # "runs-on" specifies the virtual machine image for the runner.
+    # ubuntu-latest is free for public repositories and works for most Python projects.
+    runs-on: ubuntu-latest
+
+    # "steps" are the individual tasks that run sequentially inside the job.
+    steps:
+
+      # Step 1: Check out the repository code.
+      # This clones your repo into the runner so subsequent steps can access your files.
+      # "uses" references a pre-built action from the GitHub Actions marketplace.
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python.
+      # This installs the specified Python version and adds it to PATH.
+      # We pin to 3.11 for reproducibility -- change this to match your project.
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Step 3: Install dependencies.
+      # "run" executes a shell command on the runner.
+      # We upgrade pip first (the pre-installed version is often outdated),
+      # then install everything from requirements.txt.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Step 4: Run the test suite.
+      # pytest discovers and runs all test files matching test_*.py or *_test.py.
+      # The -v flag enables verbose output so you can see each test name and result.
+      # If any test fails, this step fails, which fails the whole workflow --
+      # GitHub will show a red X on the commit or pull request.
+      - name: Run tests with pytest
+        run: |
+          pytest -v

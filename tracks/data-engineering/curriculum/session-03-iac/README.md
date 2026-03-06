@@ -5,7 +5,14 @@
 
 ## Session Plan
 
-### Concept (15 min): Why IaC + AI Is a Force Multiplier
+### Pre-Flight Check (5 min)
+Run the pre-flight script to make sure your GCP setup is ready:
+```bash
+bash ../../resources/session3-preflight.sh
+```
+All checks should pass. If any fail, see [GCP Troubleshooting](../../resources/gcp-troubleshooting.md).
+
+### Concept (10 min): Why IaC + AI Is a Force Multiplier
 
 Terraform is powerful but verbose. A simple GCS bucket + BigQuery dataset + IAM setup can be 200+ lines of HCL. This is exactly where AI shines — generating correct, well-structured config from a natural language description.
 
@@ -53,7 +60,7 @@ Use Claude to generate:
 - Minimal IAM roles (principle of least privilege)
 - Key rotation considerations
 
-This is where AI needs the most scrutiny — IAM misconfigurations are the #1 security issue in cloud.
+This is where AI needs the most scrutiny — IAM misconfigurations are the #1 security issue in cloud. Reference the [GCP IAM Cheat Sheet](../../resources/gcp-iam-cheatsheet.md) during this review.
 
 **Step 4 — Plan and Apply (11 min)**
 - Run `terraform init` and `terraform plan`
@@ -64,6 +71,13 @@ This is where AI needs the most scrutiny — IAM misconfigurations are the #1 se
 Show the full cycle: prompt → generate → review → plan → apply → verify.
 
 ### Practice (25 min)
+
+> **Choose your path based on your experience level:**
+>
+> **If this is new to you** — Start from the [safe Terraform template](../../examples/safe-terraform/). Read through each file, use AI to explain what each block does, then customize the bucket name and dataset for your capstone.
+>
+> **If you're experienced** — Write your Terraform from scratch. Add modules, remote state, or multi-environment configs. Use AI to generate and then audit for security issues.
+
 Participants write Terraform for their capstone project's infrastructure:
 - At minimum: a storage bucket and a BigQuery dataset
 - Use AI to generate, then review and customize
@@ -79,7 +93,7 @@ Participants write Terraform for their capstone project's infrastructure:
 ### Task
 Deploy your capstone project's infrastructure:
 
-1. **Write Terraform configs** for all resources your pipeline needs (storage, compute, database, IAM)
+1. **Write Terraform configs** for all resources your pipeline needs. Start from the [safe Terraform template](../../examples/safe-terraform/) which includes only free-tier resources.
 2. **Organize properly:** `main.tf`, `variables.tf`, `outputs.tf`, `terraform.tfvars.example`
 3. **Security review:** Check every IAM binding, every public access setting, every network config
 4. **Deploy to GCP** (free tier resources only — don't accidentally spin up expensive infra)
@@ -93,7 +107,19 @@ Deploy your capstone project's infrastructure:
 - [ ] `.tfvars` file is in `.gitignore`
 - [ ] Infrastructure section added to README
 
+### Before You `terraform apply`
+Review this checklist (especially if this is your first time):
+- [ ] No Compute Engine instances (these cost money)
+- [ ] No Cloud SQL instances (these cost money)
+- [ ] No public access on any resource
+- [ ] Service account has minimal roles (not roles/owner or roles/editor)
+- [ ] If you're unsure about costs, share your `terraform plan` output with the trainer before applying
+
+**Cost Check:** Before you wrap up, open your [GCP Billing Dashboard](https://console.cloud.google.com/billing) and note your current spend in your learning journal. You should be at $0 or very close if you're using free-tier resources only.
+
 Push to GitHub, share in community with `#de-session3`.
+
+> **Falling behind?** Copy the [starter pipeline](../../examples/starter-pipeline/) and [safe Terraform template](../../examples/safe-terraform/) into your capstone repo. See [Checkpoints](../../resources/checkpoints.md) for details. Customize with your own data source.
 
 ## Key Concepts
 

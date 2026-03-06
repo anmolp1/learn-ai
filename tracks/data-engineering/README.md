@@ -35,10 +35,12 @@ Both levels will build a real, deployable data pipeline by the end.
 | Python | Pipeline scripting | Yes |
 | SQL | Data transformation | Yes |
 | Terraform | Infrastructure-as-code | Yes (free) |
-| dbt | Data transformation framework | Recommended |
+| dbt | Data transformation framework | Optional ([further learning](resources/dbt-further-learning.md)) |
 | Google Cloud Platform | Cloud infrastructure (free tier) | Yes |
 | BigQuery | Data warehouse | Yes (free tier) |
-| Apache Airflow / Prefect | Orchestration | Optional |
+| Apache Airflow / Prefect | Orchestration | Not covered (see note below) |
+
+> **Note on orchestration:** This program uses a simple `run_pipeline.py` script to orchestrate pipeline steps. Airflow, Prefect, and Dagster are industry-standard tools, but adding orchestration complexity on top of learning AI integration, Terraform, and monitoring would dilute the program's focus. A Python script is sufficient for capstone-scale pipelines. Orchestration is a natural next step after the program — and AI makes learning it much faster.
 
 ## What You'll Build (Capstone)
 

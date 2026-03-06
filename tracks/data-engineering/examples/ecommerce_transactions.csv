@@ -1,0 +1,1001 @@
+transaction_id,date,customer_id,product_category,product_name,quantity,unit_price,total_amount,payment_method,region
+TXN-00001,2024-11-23,CUST-1456,Electronics,Laptop Stand,1,204.62,204.62,Credit Card,West
+TXN-00002,2024-01-17,CUST-1122,Electronics,Wireless Mouse,5,128.75,643.75,PayPal,North
+TXN-00003,2024-03-22,CUST-3859,Books,Data Engineering Guide,3,35.15,105.45,PayPal,East
+TXN-00004,2024-11-05,CUST-2083,Electronics,USB-C Hub,4,28.25,113.0,PayPal,South
+TXN-00005,2024-12-26,CUST-1284,Electronics,Webcam,2,260.6,521.2,Bank Transfer,East
+TXN-00006,2024-03-24,CUST-2516,Home & Garden,Garden Hose,1,184.69,184.69,Debit Card,South
+TXN-00007,2024-08-24,CUST-2554,Home & Garden,Door Mat,2,206.95,413.9,Credit Card,South
+TXN-00008,2024-01-17,CUST-4297,Home & Garden,Plant Pot,5,263.52,1317.6,Bank Transfer,West
+TXN-00009,2024-11-25,CUST-2879,Clothing,Denim Jeans,5,82.51,412.55,Bank Transfer,East
+TXN-00010,2024-04-22,CUST-1566,Sports,Tennis Balls,1,50.09,50.09,Bank Transfer,North
+TXN-00011,2024-07-16,CUST-2563,Sports,Foam Roller,5,258.92,-1294.6,Credit Card,East
+TXN-00012,2024-11-24,CUST-2393,Electronics,Bluetooth Speaker,3,291.7,875.1,Credit Card,East
+TXN-00013,2024-11-23,CUST-3079,Sports,Water Bottle,5,286.27,1431.35,Credit Card,East
+TXN-00014,2024-09-07,CUST-1079,Electronics,Webcam,2,264.0,528.0,Credit Card,West
+TXN-00015,2024-02-05,CUST-4115,Sports,Resistance Bands,5,53.71,268.55,Bank Transfer,South
+TXN-00016,2024-10-03,CUST-4093,Clothing,Winter Jacket,3,134.24,402.72,Credit Card,South
+TXN-00017,2024-04-25,CUST-1262,Home & garden,LED Bulb Pack,1,25.94,25.94,Debit Card,North
+TXN-00018,2024-01-17,CUST-4521,Home & Garden,Garden Hose,2,164.07,328.14,Bank Transfer,South
+TXN-00019,2024-08-30,CUST-4307,Books,Python Cookbook,3,129.95,389.85,Credit Card,North
+TXN-00020,2024-02-01,CUST-2649,Home & Garden,Plant Pot,2,163.2,326.4,Debit Card,East
+TXN-00021,2024-08-24,CUST-2023,Electronics,USB-C Hub,5,251.62,1258.1,Debit Card,South
+TXN-00022,2024-07-27,CUST-2989,Books,Machine Learning Intro,2,116.79,233.58,PayPal,West
+TXN-00023,2024-05-26,CUST-2732,Sports,Jump Rope,3,69.22,207.66,Credit Card,East
+TXN-00024,2024-01-30,CUST-1205,Sports,Tennis Balls,1,288.42,288.42,Debit Card,North
+TXN-00025,2024-10-31,CUST-1278,Clothing,Baseball Cap,5,16.72,83.6,PayPal,East
+TXN-00026,2024-04-14,CUST-3743,Home & Garden,Throw Pillow,3,139.88,419.64,Credit Card,North
+TXN-00027,2024-08-22,CUST-3544,Sports,Yoga Mat,5,83.23,416.15,Credit Card,South
+TXN-00028,2024-07-08,CUST-2167,Clothing,Baseball Cap,5,295.23,1476.15,Credit Card,East
+TXN-00029,2024-12-05,CUST-1424,Clothing,Cotton T-Shirt,2,85.34,170.68,PayPal,South
+TXN-00030,2024-12-17,CUST-3597,Home & Garden,Garden Hose,1,32.23,32.23,PayPal,North
+TXN-00031,2024-01-02,CUST-2366,Clothing,Running Shoes,4,167.74,670.96,Credit Card,North
+TXN-00032,2024-02-08,CUST-4870,Clothing,Silk Scarf,5,48.69,243.45,PayPal,East
+TXN-00033,2024-01-21,CUST-4681,Home & Garden,LED Bulb Pack,3,235.13,705.39,Bank Transfer,South
+TXN-00034,2024-05-01,CUST-4541,Clothing,Silk Scarf,4,12.31,49.24,PayPal,West
+TXN-00035,2024-12-08,CUST-4539,Clothing,Silk Scarf,4,262.28,1049.12,Debit Card,South
+TXN-00036,2024-08-23,CUST-2432,Home & Garden,Wall Clock,1,199.7,199.7,PayPal,North
+TXN-00037,2024-05-22,CUST-2438,Sports,Tennis Balls,1,39.02,39.02,Debit Card,East
+TXN-00038,2024-01-20,CUST-1444,Sports,Dumbbell Set,4,183.83,735.32,Bank Transfer,South
+TXN-00039,2024-05-10,CUST-1181,BOOKS,Design Patterns,2,112.44,224.88,PayPal,East
+TXN-00040,2024-12-05,CUST-4473,Electronics,Webcam,4,101.22,404.88,Debit Card,South
+TXN-00041,2024-08-03,CUST-3723,Books,Data Engineering Guide,3,124.79,374.37,PayPal,East
+TXN-00042,2024-04-17,CUST-2760,Sports,Water Bottle,4,204.3,817.2,Debit Card,North
+TXN-00043,2024-05-25,CUST-3111,Sports,Tennis Balls,2,203.47,406.94,Debit Card,South
+TXN-00044,2024-01-13,CUST-1189,Clothing,Baseball Cap,1,139.34,139.34,Debit Card,West
+TXN-00045,2024-09-10,CUST-2636,CLOTHING,Cotton T-Shirt,1,234.63,234.63,Bank Transfer,North
+TXN-00046,2024-10-12,CUST-2020,Electronics,Power Bank,5,180.65,903.25,Bank Transfer,West
+TXN-00047,2024-10-07,CUST-2826,Clothing,Winter Jacket,2,252.75,505.5,Bank Transfer,South
+TXN-00048,2024-05-20,CUST-2801,Electronics,Laptop Stand,3,268.43,805.29,Debit Card,South
+TXN-00049,2024-07-15,CUST-3842,Clothing,Cotton T-Shirt,3,165.06,495.18,Debit Card,West
+TXN-00050,2024-07-18,CUST-4706,Sports,Yoga Mat,5,117.21,-586.05,PayPal,East
+TXN-00051,2024-07-18,CUST-4495,Books,Design Patterns,5,269.85,1349.25,PayPal,West
+TXN-00051,2024-09-05,CUST-1118,Books,Design Patterns,2,252.94,505.88,Credit Card,West
+TXN-00053,2024-10-30,CUST-3311,electronics,Bluetooth Speaker,2,19.83,39.66,Debit Card,West
+TXN-00054,2024-06-16,CUST-2382,Books,Machine Learning Intro,1,143.74,143.74,Credit Card,East
+TXN-00055,2024-04-24,CUST-3662,Electronics,Wireless Mouse,2,63.81,127.62,Debit Card,South
+TXN-00056,2024-03-05,CUST-2939,Electronics,Laptop Stand,3,231.23,693.69,Credit Card,South
+TXN-00057,2024-06-08,CUST-1442,sports,Foam Roller,4,122.01,488.04,Credit Card,South
+TXN-00058,2024-02-22,CUST-3855,Home & Garden,Candle Set,5,235.87,1179.35,Bank Transfer,East
+TXN-00059,2024-02-05,CUST-3072,home & garden,Wall Clock,4,288.42,1153.68,Bank Transfer,South
+TXN-00060,2024-08-10,CUST-1721,Sports,Water Bottle,5,233.51,1167.55,PayPal,East
+TXN-00061,2024-05-05,CUST-4402,Electronics,Power Bank,4,173.1,692.4,PayPal,North
+TXN-00062,2024-09-10,CUST-4485,Home & Garden,LED Bulb Pack,3,105.4,316.2,PayPal,North
+TXN-00063,2024-09-21,CUST-4883,CLOTHING,Winter Jacket,2,208.72,417.44,Bank Transfer,West
+TXN-00064,2024-01-09,CUST-1381,Home & Garden,Door Mat,5,113.86,569.3,PayPal,West
+TXN-00065,2024-10-08,CUST-2354,Home & Garden,Garden Hose,2,40.59,81.18,Credit Card,South
+TXN-00066,2024-04-08,CUST-1886,Books,Clean Code,5,181.05,905.25,Debit Card,East
+TXN-00067,2024-04-26,CUST-2478,Clothing,Wool Socks,3,18.43,55.29,PayPal,South
+TXN-00068,2024-11-22,CUST-4557,Books,Clean Code,4,134.93,539.72,Credit Card,East
+TXN-00069,2024-09-01,CUST-1467,Electronics,USB-C Hub,1,49.76,49.76,PayPal,North
+TXN-00070,2024-05-07,CUST-1485,Sports,Foam Roller,5,71.58,357.9,Bank Transfer,West
+TXN-00071,2024-06-01,CUST-4523,Sports,Water Bottle,1,184.84,184.84,Debit Card,South
+TXN-00072,2024-05-15,CUST-3705,Electronics,Bluetooth Speaker,2,5.79,11.58,Bank Transfer,East
+TXN-00073,2024-01-17,CUST-1948,Home & Garden,Door Mat,1,207.77,207.77,Debit Card,West
+TXN-00074,2024-02-28,CUST-3230,Clothing,Running Shoes,1,22.59,22.59,PayPal,West
+TXN-00075,2024-03-04,CUST-2919,Home & Garden,Garden Hose,4,134.13,536.52,Bank Transfer,East
+TXN-00076,2024-11-05,CUST-2025,ELECTRONICS,Wireless Mouse,3,174.99,524.97,Debit Card,West
+TXN-00077,2024-09-22,CUST-3668,Books,Data Engineering Guide,4,192.26,769.04,Credit Card,West
+TXN-00078,2024-06-27,CUST-2672,Home & Garden,Plant Pot,3,126.43,379.29,Bank Transfer,North
+TXN-00079,2024-08-20,CUST-1360,Home & Garden,Plant Pot,4,260.14,1040.56,Credit Card,West
+TXN-00080,2024-07-30,CUST-1222,Clothing,Baseball Cap,4,229.19,916.76,Debit Card,East
+TXN-00081,2024-08-12,CUST-4607,BOOKS,Clean Code,2,96.67,-193.34,Bank Transfer,North
+TXN-00082,2024-04-25,CUST-4446,Electronics,USB-C Hub,2,152.02,304.04,PayPal,West
+TXN-00083,2024-09-04,CUST-2934,Clothing,Denim Jeans,5,154.93,774.65,Credit Card,East
+TXN-00084,2024-07-31,CUST-2392,Sports,Yoga Mat,3,252.05,756.15,Bank Transfer,South
+TXN-00085,2024-08-16,CUST-3206,Books,Clean Code,4,139.32,557.28,Debit Card,South
+TXN-00086,2024-10-19,CUST-2568,Clothing,Winter Jacket,4,213.04,852.16,Bank Transfer,South
+TXN-00087,2024-09-10,CUST-4951,ELECTRONICS,Keyboard,4,34.41,137.64,Credit Card,South
+TXN-00088,2024-07-28,CUST-4567,clothing,Running Shoes,4,196.7,786.8,Bank Transfer,East
+TXN-00089,2024-11-16,CUST-3943,Books,Python Cookbook,2,191.19,382.38,Debit Card,North
+TXN-00090,2024-08-10,CUST-1403,Electronics,Webcam,1,100.69,100.69,PayPal,East
+TXN-00091,2024-08-08,CUST-1596,Clothing,Baseball Cap,2,55.14,110.28,Bank Transfer,South
+TXN-00092,2024-09-11,CUST-4738,sports,Dumbbell Set,3,201.71,605.13,Bank Transfer,East
+TXN-00093,2024-12-12,CUST-3238,clothing,Baseball Cap,4,208.64,834.56,PayPal,South
+TXN-00094,2024-07-15,CUST-4495,books,Clean Code,3,297.83,893.49,Bank Transfer,East
+TXN-00095,2024-01-05,CUST-3318,Electronics,Power Bank,3,233.84,701.52,PayPal,South
+TXN-00096,2024-11-21,CUST-1778,Sports,Tennis Balls,2,190.33,380.66,Credit Card,East
+TXN-00097,2024-08-13,CUST-1136,Sports,Resistance Bands,3,101.38,304.14,Debit Card,South
+TXN-00098,2024-10-03,CUST-4589,Home & Garden,Garden Hose,3,274.64,823.92,PayPal,East
+TXN-00099,2024-02-28,CUST-2918,Electronics,Monitor Cable,5,112.9,564.5,Credit Card,East
+TXN-00100,2024-10-01,CUST-1506,Books,Design Patterns,5,117.4,587.0,PayPal,North
+TXN-00101,2024-12-11,CUST-1957,BOOKS,SQL Fundamentals,2,196.05,392.1,Bank Transfer,East
+TXN-00102,2024-11-28,CUST-2672,Electronics,Webcam,1,33.67,33.67,Debit Card,West
+TXN-00103,2024-08-20,CUST-2519,Sports,Dumbbell Set,4,198.2,792.8,Bank Transfer,East
+TXN-00104,2024-01-17,CUST-3827,Home & Garden,Throw Pillow,3,34.31,102.93,PayPal,North
+TXN-00105,2024-07-22,CUST-2130,Clothing,Silk Scarf,1,200.51,200.51,Credit Card,North
+TXN-00106,2024-06-19,CUST-1997,Clothing,Denim Jeans,5,66.11,330.55,Debit Card,East
+TXN-00107,2024-03-16,CUST-4230,Sports,Resistance Bands,2,37.43,74.86,Debit Card,North
+TXN-00108,2024-07-02,CUST-4235,Clothing,Cotton T-Shirt,1,42.39,42.39,Credit Card,North
+TXN-00109,2024-08-31,CUST-2836,Home & Garden,Plant Pot,2,283.89,567.78,PayPal,West
+TXN-00110,2024-11-25,CUST-4948,electronics,Monitor Cable,1,149.62,149.62,Credit Card,North
+TXN-00111,2024-06-13,CUST-3491,clothing,Baseball Cap,5,215.08,1075.4,PayPal,West
+TXN-00112,2024-09-15,CUST-3479,BOOKS,Python Cookbook,5,217.64,1088.2,Bank Transfer,South
+TXN-00113,2024-07-30,CUST-2388,Books,Design Patterns,4,97.19,388.76,Debit Card,West
+TXN-00114,2024-02-04,CUST-1373,Electronics,Keyboard,5,22.69,113.45,PayPal,North
+TXN-00115,2024-07-29,CUST-2448,Books,Design Patterns,3,182.11,546.33,Debit Card,South
+TXN-00116,2024-12-02,CUST-2975,Clothing,Running Shoes,3,38.89,116.67,Debit Card,West
+TXN-00117,2024-10-14,CUST-4991,Sports,Dumbbell Set,5,279.07,1395.35,PayPal,North
+TXN-00118,2024-04-02,CUST-2119,Home & Garden,Garden Hose,,261.6,261.6,Bank Transfer,North
+TXN-00119,2024-03-13,CUST-4035,ELECTRONICS,Laptop Stand,4,105.56,422.24,PayPal,North
+TXN-00120,2024-01-27,CUST-1637,Clothing,Cotton T-Shirt,3,135.71,407.13,Bank Transfer,West
+TXN-00121,2024-05-19,CUST-1882,sports,Yoga Mat,5,148.55,742.75,Credit Card,South
+TXN-00122,2024-07-21,CUST-3454,electronics,Laptop Stand,3,90.38,271.14,Bank Transfer,West
+TXN-00123,2024-03-30,CUST-1529,Books,Data Engineering Guide,3,26.26,78.78,Credit Card,West
+TXN-00124,2024-01-10,CUST-2883,Electronics,Monitor Cable,4,90.4,361.6,PayPal,South
+TXN-00125,2024-11-12,CUST-2884,Home & Garden,LED Bulb Pack,4,159.56,638.24,PayPal,East
+TXN-00126,2024-04-23,CUST-2364,CLOTHING,Cotton T-Shirt,2,272.24,544.48,Debit Card,South
+TXN-00127,2024-02-22,CUST-1599,Home & Garden,Candle Set,1,57.26,57.26,Bank Transfer,West
+TXN-00128,2024-10-15,CUST-4112,Sports,Foam Roller,5,100.34,501.7,PayPal,South
+TXN-00129,2024-08-13,CUST-1279,Books,SQL Fundamentals,5,21.57,107.85,PayPal,West
+TXN-00130,2024-08-19,CUST-1154,Electronics,Webcam,1,186.42,186.42,Bank Transfer,North
+TXN-00131,2024-08-18,CUST-4723,Sports,Water Bottle,5,49.5,247.5,Credit Card,East
+TXN-00132,2024-12-31,CUST-1345,Sports,Yoga Mat,4,297.33,1189.32,Debit Card,East
+TXN-00133,2024-07-09,CUST-4759,Home & Garden,Wall Clock,5,20.45,102.25,PayPal,North
+TXN-00134,2024-06-17,CUST-1387,Sports,Water Bottle,5,262.61,1313.05,Debit Card,East
+TXN-00135,2024-06-07,CUST-4963,BOOKS,Python Cookbook,4,194.82,779.28,Debit Card,North
+TXN-00136,2024-11-26,CUST-3746,Books,Python Cookbook,2,285.59,571.18,Bank Transfer,South
+TXN-00137,2024-04-25,CUST-1563,Clothing,Baseball Cap,5,16.14,80.7,Debit Card,West
+TXN-00138,2024-03-19,CUST-1664,Clothing,Silk Scarf,2,217.74,435.48,PayPal,South
+TXN-00139,2024-08-15,CUST-3500,Home & Garden,Wall Clock,5,75.55,377.75,Bank Transfer,South
+TXN-00140,2024-07-07,CUST-3778,Sports,Jump Rope,4,153.35,613.4,Debit Card,South
+TXN-00141,2024-11-05,CUST-1566,home & garden,Wall Clock,1,214.86,214.86,Credit Card,East
+TXN-00142,2024-02-12,CUST-4125,Clothing,Baseball Cap,4,32.05,128.2,Bank Transfer,East
+TXN-00143,2024-01-14,CUST-2699,Electronics,Keyboard,1,115.6,115.6,Credit Card,East
+TXN-00144,2024-03-15,CUST-1563,Electronics,Power Bank,2,228.85,457.7,Credit Card,North
+TXN-00145,2024-01-10,CUST-2048,Clothing,Baseball Cap,5,160.69,803.45,PayPal,South
+TXN-00146,2024-06-03,CUST-1499,Electronics,Power Bank,4,181.03,-724.12,Debit Card,South
+TXN-00147,2024-05-29,CUST-2758,Electronics,Laptop Stand,2,200.98,401.96,PayPal,North
+TXN-00148,2024-09-26,CUST-3228,Sports,Foam Roller,4,262.62,1050.48,Bank Transfer,East
+TXN-00149,2024-05-09,CUST-4061,Electronics,USB-C Hub,1,232.59,232.59,PayPal,South
+TXN-00150,2024-01-23,CUST-2443,Sports,Dumbbell Set,4,294.33,1177.32,Debit Card,South
+TXN-00151,2024-02-02,CUST-3932,Books,Python Cookbook,1,98.1,98.1,Bank Transfer,West
+TXN-00152,2024-05-09,CUST-1149,Clothing,Silk Scarf,3,85.6,256.8,Bank Transfer,West
+TXN-00153,2024-08-13,CUST-4664,Books,Data Engineering Guide,4,113.36,453.44,PayPal,North
+TXN-00154,2024-08-05,CUST-1323,Books,Data Engineering Guide,3,35.27,105.81,PayPal,East
+TXN-00155,2024-08-16,CUST-3468,Books,Machine Learning Intro,1,219.4,219.4,Bank Transfer,East
+TXN-00156,2024-11-23,CUST-4241,ELECTRONICS,Monitor Cable,2,286.06,572.12,Bank Transfer,North
+TXN-00157,2024-03-05,CUST-1275,Clothing,Running Shoes,5,14.55,72.75,Bank Transfer,East
+TXN-00158,2024-07-09,CUST-2818,Electronics,Keyboard,3,78.63,235.89,Debit Card,West
+TXN-00159,2024-09-22,CUST-2585,sports,Dumbbell Set,5,89.24,446.2,Bank Transfer,South
+TXN-00160,2024-03-03,CUST-1555,Electronics,Power Bank,3,202.01,606.03,PayPal,East
+TXN-00161,2024-03-21,CUST-3915,Clothing,Baseball Cap,2,238.65,477.3,Bank Transfer,North
+TXN-00162,2024-07-03,CUST-3269,Sports,Tennis Balls,2,185.52,371.04,PayPal,West
+TXN-00163,2024-09-02,CUST-3153,Books,Clean Code,3,194.48,583.44,PayPal,South
+TXN-00164,2024-10-09,CUST-3620,Sports,Resistance Bands,1,250.25,250.25,PayPal,South
+TXN-00165,2024-03-23,CUST-2321,Clothing,Baseball Cap,1,78.93,78.93,PayPal,South
+TXN-00166,2024-11-16,CUST-2240,Sports,Foam Roller,5,282.76,1413.8,PayPal,North
+TXN-00167,2024-01-15,CUST-1332,Electronics,Webcam,5,127.89,639.45,Bank Transfer,East
+TXN-00168,2024-11-24,CUST-4918,Home & Garden,Wall Clock,4,92.74,370.96,Credit Card,South
+TXN-00169,2024-08-13,CUST-2702,Books,SQL Fundamentals,3,259.13,777.39,PayPal,West
+TXN-00170,2024-03-07,CUST-4115,Home & Garden,Plant Pot,4,41.14,164.56,Debit Card,North
+TXN-00171,2024-01-26,CUST-2188,Books,Machine Learning Intro,2,244.97,489.94,PayPal,South
+TXN-00172,2024-03-22,CUST-3040,Sports,Water Bottle,1,283.83,283.83,Debit Card,South
+TXN-00173,2024-10-25,CUST-2445,electronics,Power Bank,1,254.91,254.91,PayPal,East
+TXN-00174,2024-07-25,CUST-2498,Electronics,Laptop Stand,3,26.69,80.07,PayPal,North
+TXN-00175,2024-03-06,CUST-4993,Electronics,Keyboard,3,227.71,683.13,Bank Transfer,North
+TXN-00176,2024-01-24,CUST-1159,Clothing,Silk Scarf,4,48.94,195.76,Debit Card,East
+TXN-00177,2024-11-09,CUST-2304,Clothing,Baseball Cap,3,180.14,540.42,Bank Transfer,East
+TXN-00178,2024-08-31,CUST-4341,Electronics,USB-C Hub,5,95.76,478.8,Credit Card,West
+TXN-00179,2024-05-15,CUST-4961,Sports,Dumbbell Set,4,55.3,221.2,Bank Transfer,South
+TXN-00180,2024-12-14,CUST-1992,Electronics,USB-C Hub,4,97.54,390.16,Debit Card,West
+TXN-00181,2024-09-13,CUST-4174,Sports,Tennis Balls,1,213.2,213.2,PayPal,West
+TXN-00182,2024-09-26,CUST-2543,Home & Garden,Throw Pillow,3,166.15,498.45,PayPal,West
+TXN-00183,2024-04-08,CUST-4921,Clothing,Running Shoes,3,232.49,697.47,Bank Transfer,East
+TXN-00184,2024-09-02,CUST-2428,Sports,Tennis Balls,3,40.95,122.85,Bank Transfer,West
+TXN-00185,2024-06-25,CUST-4910,Clothing,Running Shoes,1,107.17,107.17,PayPal,West
+TXN-00186,2024-04-19,CUST-1827,Sports,Foam Roller,2,37.22,74.44,Debit Card,South
+TXN-00187,2024-01-26,CUST-3743,Sports,Resistance Bands,4,102.43,409.72,Debit Card,North
+TXN-00188,2024-10-08,CUST-4805,Clothing,Winter Jacket,2,227.99,455.98,PayPal,North
+TXN-00189,2024-02-15,CUST-3671,Sports,Dumbbell Set,1,274.39,274.39,Debit Card,North
+TXN-00190,2024-07-22,CUST-4227,Books,Design Patterns,3,263.63,-790.89,Credit Card,East
+TXN-00191,2024-05-25,CUST-2861,Sports,Resistance Bands,4,85.48,341.92,PayPal,South
+TXN-00192,2024-08-22,CUST-3655,Home & Garden,Plant Pot,3,172.49,517.47,Debit Card,West
+TXN-00193,2024-08-06,CUST-3110,Home & garden,Plant Pot,2,145.84,291.68,Credit Card,East
+TXN-00194,2024-07-15,CUST-1964,Books,SQL Fundamentals,5,8.37,41.85,Debit Card,North
+TXN-00195,2024-12-07,CUST-1484,Books,Machine Learning Intro,3,208.63,625.89,PayPal,East
+TXN-00196,2024-11-10,CUST-1904,Clothing,Winter Jacket,5,115.22,576.1,Bank Transfer,South
+TXN-00197,2024-05-06,CUST-3786,Sports,Yoga Mat,5,212.6,1063.0,Credit Card,North
+TXN-00198,2024-10-07,CUST-4698,Sports,Foam Roller,3,257.06,771.18,Debit Card,West
+TXN-00199,2024-02-16,CUST-4681,Sports,Yoga Mat,5,127.55,637.75,Bank Transfer,East
+TXN-00200,2024-01-12,CUST-2621,Home & Garden,Door Mat,1,18.36,18.36,Credit Card,North
+TXN-00201,2024-02-05,CUST-4824,books,Data Engineering Guide,4,115.46,461.84,Bank Transfer,West
+TXN-00201,2024-07-11,CUST-1328,sports,Yoga Mat,5,120.95,604.75,Debit Card,North
+TXN-00203,2024-01-12,CUST-2222,Books,Clean Code,4,247.88,991.52,PayPal,South
+TXN-00204,2024-05-21,CUST-1772,ELECTRONICS,Monitor Cable,1,75.99,75.99,Credit Card,West
+TXN-00205,2024-11-02,CUST-3752,Electronics,Wireless Mouse,2,164.22,328.44,Credit Card,South
+TXN-00206,2024-09-14,CUST-2184,Clothing,Wool Socks,5,181.38,906.9,PayPal,South
+TXN-00207,2024-06-03,CUST-4589,Clothing,Baseball Cap,3,86.17,258.51,Debit Card,West
+TXN-00208,2024-10-11,CUST-3030,Electronics,Monitor Cable,3,210.4,631.2,PayPal,West
+TXN-00209,2024-04-04,CUST-4090,Sports,Tennis Balls,2,242.7,485.4,Bank Transfer,West
+TXN-00210,2024-10-12,CUST-3170,Clothing,Running Shoes,1,277.05,277.05,Credit Card,South
+TXN-00211,2024-01-27,CUST-2099,Books,Clean Code,1,60.51,60.51,Debit Card,West
+TXN-00212,2024-04-16,CUST-4561,Home & Garden,Plant Pot,2,288.8,577.6,Bank Transfer,South
+TXN-00213,2024-12-22,CUST-3475,Clothing,Denim Jeans,3,117.29,351.87,PayPal,East
+TXN-00214,2024-05-13,CUST-2473,Sports,Jump Rope,4,229.67,918.68,Debit Card,East
+TXN-00215,2024-06-09,CUST-2695,Electronics,Laptop Stand,1,81.93,81.93,Bank Transfer,East
+TXN-00216,2024-03-19,CUST-1803,Home & Garden,Candle Set,4,167.43,669.72,PayPal,East
+TXN-00217,2024-09-07,CUST-4958,Books,Design Patterns,2,46.29,92.58,Debit Card,North
+TXN-00218,2024-09-25,CUST-1138,Electronics,Wireless Mouse,4,45.56,182.24,Credit Card,South
+TXN-00219,2024-01-05,CUST-1895,Sports,Yoga Mat,5,274.25,1371.25,Credit Card,North
+TXN-00220,2024-09-29,CUST-3259,BOOKS,Design Patterns,3,10.06,30.18,Bank Transfer,South
+TXN-00221,2024-02-24,CUST-4760,Electronics,Laptop Stand,5,79.46,397.3,Bank Transfer,North
+TXN-00222,2024-07-10,CUST-4929,Books,Data Engineering Guide,2,93.49,186.98,Credit Card,North
+TXN-00223,2024-02-17,CUST-2660,Books,Machine Learning Intro,1,212.33,212.33,Bank Transfer,East
+TXN-00224,2024-10-16,CUST-4514,Electronics,Wireless Mouse,5,145.27,726.35,Credit Card,East
+TXN-00225,2024-10-05,CUST-3308,Electronics,Keyboard,,66.11,66.11,Debit Card,West
+TXN-00226,2024-02-09,CUST-2225,Clothing,Baseball Cap,4,204.72,818.88,Bank Transfer,South
+TXN-00227,2024-12-18,CUST-3966,Electronics,Keyboard,4,73.48,293.92,Bank Transfer,East
+TXN-00228,2024-01-16,CUST-3597,Home & Garden,Throw Pillow,3,168.14,504.42,Debit Card,West
+TXN-00229,2024-02-13,CUST-4162,Sports,Resistance Bands,1,84.05,84.05,Debit Card,West
+TXN-00230,2024-06-11,CUST-2477,electronics,Power Bank,3,35.16,105.48,Bank Transfer,West
+TXN-00231,2024-10-12,CUST-3272,Sports,Yoga Mat,5,32.45,162.25,PayPal,West
+TXN-00232,2024-01-07,CUST-2195,Books,Python Cookbook,5,272.03,1360.15,Debit Card,West
+TXN-00233,2024-03-27,CUST-1568,Home & Garden,Throw Pillow,2,133.23,266.46,Bank Transfer,North
+TXN-00234,2024-07-03,CUST-2030,Clothing,Winter Jacket,2,140.06,280.12,Credit Card,West
+TXN-00235,2024-06-19,CUST-4447,Sports,Tennis Balls,3,132.03,396.09,Debit Card,East
+TXN-00236,2024-06-13,CUST-3470,Clothing,Denim Jeans,3,90.97,272.91,Bank Transfer,South
+TXN-00237,2024-06-15,CUST-2540,Home & Garden,Throw Pillow,5,63.94,319.7,Debit Card,North
+TXN-00238,2024-08-24,CUST-4862,Clothing,Running Shoes,1,246.59,246.59,Bank Transfer,West
+TXN-00239,2024-03-12,CUST-3594,Home & Garden,Door Mat,4,237.77,951.08,Bank Transfer,West
+TXN-00240,2024-09-30,CUST-3075,Books,SQL Fundamentals,5,180.17,900.85,Credit Card,South
+TXN-00241,2024-12-02,CUST-3722,Home & Garden,Candle Set,4,290.2,1160.8,Bank Transfer,North
+TXN-00242,2024-01-06,CUST-1403,Home & Garden,Door Mat,5,207.85,1039.25,PayPal,West
+TXN-00243,2024-08-25,CUST-4163,Sports,Resistance Bands,1,147.41,147.41,Credit Card,North
+TXN-00244,2024-03-13,CUST-2426,Home & Garden,Wall Clock,4,107.75,431.0,Bank Transfer,East
+TXN-00245,2024-02-04,CUST-2229,Electronics,USB-C Hub,,106.2,106.2,Credit Card,South
+TXN-00246,2024-05-04,CUST-3113,Clothing,Running Shoes,4,73.4,293.6,Debit Card,South
+TXN-00247,2024-11-23,CUST-3692,Books,Design Patterns,2,137.62,275.24,Credit Card,South
+TXN-00248,2024-04-15,CUST-2140,Electronics,Bluetooth Speaker,2,139.97,279.94,Bank Transfer,East
+TXN-00249,2024-11-01,CUST-2591,Sports,Yoga Mat,4,187.12,748.48,PayPal,North
+TXN-00250,2024-12-10,CUST-1548,home & garden,Plant Pot,2,155.69,311.38,Debit Card,West
+TXN-00251,2024-08-04,CUST-1760,Books,Design Patterns,2,168.69,337.38,Debit Card,South
+TXN-00252,2024-06-10,CUST-4448,Books,SQL Fundamentals,4,45.28,181.12,Bank Transfer,West
+TXN-00253,2024-12-16,CUST-3014,Books,Machine Learning Intro,1,171.79,171.79,Debit Card,East
+TXN-00254,2024-01-17,CUST-2125,Clothing,Denim Jeans,5,224.04,1120.2,Credit Card,North
+TXN-00255,2024-05-17,CUST-4174,Sports,Water Bottle,1,229.19,229.19,Debit Card,West
+TXN-00256,2024-02-22,CUST-4014,Clothing,Cotton T-Shirt,3,259.34,778.02,Credit Card,South
+TXN-00257,2024-04-17,CUST-4320,Sports,Tennis Balls,4,53.96,215.84,Debit Card,South
+TXN-00258,2024-01-31,CUST-3335,Home & Garden,Candle Set,3,293.8,881.4,PayPal,North
+TXN-00259,2024-03-10,CUST-4943,Books,SQL Fundamentals,2,211.91,423.82,Debit Card,East
+TXN-00260,2024-05-06,CUST-4118,Books,Clean Code,4,115.67,462.68,Credit Card,West
+TXN-00261,2024-09-20,CUST-4071,Home & Garden,Garden Hose,4,101.55,-406.2,Credit Card,West
+TXN-00262,2024-11-21,CUST-3720,Home & Garden,Wall Clock,2,290.59,581.18,Bank Transfer,East
+TXN-00263,2024-06-14,CUST-4392,Home & Garden,Candle Set,4,237.54,950.16,Credit Card,North
+TXN-00264,2024-02-20,CUST-3564,Books,Machine Learning Intro,4,64.68,258.72,Debit Card,East
+TXN-00265,2024-03-22,CUST-4581,home & garden,Garden Hose,2,20.28,40.56,Debit Card,West
+TXN-00266,2024-12-01,CUST-1373,electronics,USB-C Hub,2,158.23,316.46,Credit Card,East
+TXN-00267,2024-03-02,CUST-4523,Books,Machine Learning Intro,4,31.35,125.4,Credit Card,East
+TXN-00268,2024-07-07,CUST-4608,Home & Garden,Door Mat,2,25.18,50.36,Debit Card,West
+TXN-00269,2024-06-28,CUST-3959,Clothing,Denim Jeans,5,207.53,1037.65,Credit Card,North
+TXN-00270,2024-03-12,CUST-4082,Electronics,Monitor Cable,4,97.78,391.12,PayPal,North
+TXN-00271,2024-05-07,CUST-3266,Sports,Foam Roller,1,255.12,255.12,PayPal,South
+TXN-00272,2024-09-22,CUST-3485,Sports,Jump Rope,1,236.21,236.21,Debit Card,West
+TXN-00273,2024-07-16,CUST-1461,Clothing,Baseball Cap,1,296.12,296.12,Debit Card,West
+TXN-00274,2024-10-18,CUST-2723,Home & Garden,LED Bulb Pack,1,9.92,9.92,PayPal,South
+TXN-00275,2024-01-21,CUST-4778,Electronics,Monitor Cable,5,231.29,1156.45,Bank Transfer,North
+TXN-00276,2024-11-23,CUST-3197,Sports,Water Bottle,1,155.83,155.83,Debit Card,East
+TXN-00277,2024-07-19,CUST-3402,Electronics,Monitor Cable,2,22.08,44.16,Bank Transfer,North
+TXN-00278,2024-08-20,CUST-3507,SPORTS,Dumbbell Set,2,40.23,80.46,Credit Card,South
+TXN-00279,2024-09-11,CUST-4903,Home & Garden,Wall Clock,3,54.25,162.75,PayPal,North
+TXN-00280,2024-01-16,CUST-2372,Books,Python Cookbook,5,190.12,950.6,PayPal,North
+TXN-00281,2024-09-12,CUST-4519,Sports,Resistance Bands,1,268.8,268.8,Credit Card,South
+TXN-00282,2024-09-17,CUST-1010,Electronics,Wireless Mouse,4,112.37,449.48,Debit Card,North
+TXN-00283,2024-10-10,CUST-4289,Books,Data Engineering Guide,3,85.02,255.06,PayPal,North
+TXN-00284,2024-09-14,CUST-3757,Electronics,Wireless Mouse,1,263.7,263.7,PayPal,East
+TXN-00285,2024-02-14,CUST-3265,Books,SQL Fundamentals,3,223.17,669.51,PayPal,West
+TXN-00286,2024-04-10,CUST-4000,Sports,Resistance Bands,4,12.05,48.2,Credit Card,East
+TXN-00287,2024-01-01,CUST-4108,Books,Design Patterns,2,161.29,322.58,Bank Transfer,North
+TXN-00288,2024-03-13,CUST-3914,Home & Garden,Wall Clock,3,140.24,420.72,Credit Card,South
+TXN-00289,2024-11-22,CUST-4358,BOOKS,Python Cookbook,2,74.85,149.7,PayPal,West
+TXN-00290,2024-12-24,CUST-4407,Home & Garden,Garden Hose,2,45.15,90.3,Credit Card,South
+TXN-00291,2024-02-24,CUST-1673,Books,Machine Learning Intro,3,289.56,868.68,PayPal,West
+TXN-00292,2024-05-15,CUST-4491,ELECTRONICS,Webcam,5,16.9,84.5,PayPal,South
+TXN-00293,2024-02-16,CUST-3912,Clothing,Winter Jacket,3,81.75,245.25,Credit Card,West
+TXN-00294,2024-08-19,CUST-3277,Sports,Jump Rope,2,40.83,81.66,Debit Card,South
+TXN-00295,2024-04-11,CUST-4373,Books,Design Patterns,1,176.78,176.78,Credit Card,North
+TXN-00296,2024-02-03,CUST-1809,Books,Python Cookbook,3,41.14,123.42,Credit Card,South
+TXN-00297,2024-10-20,CUST-2774,Books,Machine Learning Intro,2,109.41,218.82,PayPal,East
+TXN-00298,2024-08-16,CUST-4618,CLOTHING,Baseball Cap,3,152.17,456.51,Bank Transfer,North
+TXN-00299,2024-02-14,CUST-2145,Books,Design Patterns,5,78.5,392.5,Credit Card,West
+TXN-00300,2024-12-31,CUST-2470,Books,Machine Learning Intro,5,153.2,766.0,Debit Card,North
+TXN-00301,2024-06-12,CUST-3445,clothing,Cotton T-Shirt,4,161.18,644.72,Debit Card,South
+TXN-00302,2024-02-21,CUST-2015,Clothing,Silk Scarf,1,230.39,230.39,Bank Transfer,East
+TXN-00303,2024-03-29,CUST-1721,Clothing,Silk Scarf,3,274.61,823.83,PayPal,South
+TXN-00304,2024-10-15,CUST-4884,Clothing,Silk Scarf,4,164.92,659.68,Credit Card,North
+TXN-00305,2024-01-29,CUST-1952,Sports,Foam Roller,3,275.77,827.31,Debit Card,East
+TXN-00306,2024-03-31,CUST-4763,Home & Garden,Candle Set,2,233.43,466.86,PayPal,North
+TXN-00307,2024-07-10,CUST-3885,Books,SQL Fundamentals,2,292.87,585.74,Bank Transfer,West
+TXN-00308,2024-11-28,CUST-2299,Clothing,Baseball Cap,5,237.15,1185.75,Debit Card,West
+TXN-00309,2024-06-06,CUST-4006,Home & garden,Plant Pot,5,120.52,602.6,Credit Card,South
+TXN-00310,2024-11-04,CUST-2303,Sports,Foam Roller,4,46.49,185.96,Debit Card,East
+TXN-00311,2024-06-12,CUST-1687,Electronics,Keyboard,3,66.85,200.55,PayPal,East
+TXN-00312,2024-02-25,CUST-3950,electronics,Monitor Cable,4,150.45,601.8,Bank Transfer,North
+TXN-00313,2024-09-02,CUST-4230,Sports,Dumbbell Set,4,26.74,106.96,PayPal,North
+TXN-00314,2024-06-12,CUST-2069,Electronics,Monitor Cable,1,166.37,166.37,Credit Card,East
+TXN-00315,2024-10-31,CUST-3513,Books,Machine Learning Intro,2,184.15,368.3,Credit Card,North
+TXN-00316,2024-06-18,CUST-1841,Clothing,Baseball Cap,5,83.25,416.25,Debit Card,North
+TXN-00317,2024-01-26,CUST-2609,Sports,Jump Rope,3,6.13,18.39,Bank Transfer,South
+TXN-00318,2024-02-19,CUST-1105,Clothing,Running Shoes,4,253.9,1015.6,Bank Transfer,West
+TXN-00319,2024-09-07,CUST-4665,Home & garden,Throw Pillow,4,113.97,455.88,PayPal,West
+TXN-00320,2024-08-26,CUST-2078,Clothing,Baseball Cap,1,30.28,30.28,Bank Transfer,South
+TXN-00321,2024-10-10,CUST-1249,Books,Machine Learning Intro,4,173.94,695.76,PayPal,North
+TXN-00322,2024-07-21,CUST-4697,Electronics,Bluetooth Speaker,4,56.0,224.0,Debit Card,South
+TXN-00323,2024-03-05,CUST-1174,BOOKS,Machine Learning Intro,2,251.05,502.1,Credit Card,North
+TXN-00324,2024-07-17,CUST-3278,Books,SQL Fundamentals,1,237.02,237.02,Bank Transfer,North
+TXN-00325,2024-07-31,CUST-1612,Clothing,Baseball Cap,1,277.84,277.84,Credit Card,East
+TXN-00326,2024-10-01,CUST-4605,Home & Garden,Garden Hose,4,173.74,694.96,Debit Card,East
+TXN-00327,2024-07-25,CUST-1589,Sports,Dumbbell Set,4,267.42,1069.68,Debit Card,North
+TXN-00328,2024-08-31,CUST-4771,Home & Garden,Plant Pot,3,96.73,290.19,Credit Card,South
+TXN-00329,2024-03-09,CUST-2230,Books,SQL Fundamentals,4,183.46,733.84,Bank Transfer,South
+TXN-00330,2024-07-27,CUST-4034,Books,SQL Fundamentals,5,238.48,1192.4,Bank Transfer,South
+TXN-00331,2024-09-25,CUST-4601,Sports,Tennis Balls,1,78.6,78.6,PayPal,South
+TXN-00332,2024-05-20,CUST-2508,Books,Design Patterns,1,76.37,76.37,Bank Transfer,South
+TXN-00333,2024-08-30,CUST-3403,Sports,Resistance Bands,3,225.94,677.82,PayPal,North
+TXN-00334,2024-07-16,CUST-1203,Clothing,Silk Scarf,2,195.97,391.94,PayPal,West
+TXN-00335,2024-09-19,CUST-1082,Electronics,Bluetooth Speaker,5,241.25,1206.25,PayPal,East
+TXN-00336,2024-08-04,CUST-4667,Books,Machine Learning Intro,4,94.13,376.52,Bank Transfer,North
+TXN-00337,2024-01-04,CUST-3095,Home & Garden,Candle Set,3,206.9,620.7,PayPal,East
+TXN-00338,2024-11-23,CUST-2331,Home & Garden,Door Mat,3,60.56,181.68,Debit Card,North
+TXN-00339,2024-11-03,CUST-2655,Home & Garden,Door Mat,,151.72,151.72,PayPal,East
+TXN-00340,2024-08-02,CUST-2657,Books,Clean Code,5,245.72,1228.6,Debit Card,West
+TXN-00341,2024-12-09,CUST-2468,Sports,Resistance Bands,5,58.43,292.15,Debit Card,East
+TXN-00342,2024-10-13,CUST-4124,Clothing,Running Shoes,2,109.81,219.62,PayPal,West
+TXN-00343,2024-06-18,CUST-2522,Home & Garden,Throw Pillow,4,20.83,83.32,Credit Card,West
+TXN-00344,2024-04-09,CUST-3049,Electronics,Monitor Cable,4,20.95,83.8,Debit Card,South
+TXN-00345,2024-06-24,CUST-2676,Sports,Jump Rope,2,234.78,469.56,Debit Card,East
+TXN-00346,2024-11-20,CUST-1237,Electronics,Laptop Stand,2,175.0,350.0,Credit Card,South
+TXN-00347,2024-11-10,CUST-2776,Books,Machine Learning Intro,1,162.46,162.46,Credit Card,East
+TXN-00348,2024-09-28,CUST-1780,Electronics,Laptop Stand,3,97.06,291.18,PayPal,South
+TXN-00349,2024-02-03,CUST-4374,Electronics,Webcam,5,180.92,904.6,Debit Card,East
+TXN-00350,2024-09-07,CUST-2471,Clothing,Silk Scarf,2,71.17,142.34,Debit Card,North
+TXN-00351,2024-10-28,CUST-3066,CLOTHING,Wool Socks,4,263.57,1054.28,Credit Card,North
+TXN-00352,2024-12-04,CUST-1442,Electronics,Monitor Cable,1,166.44,166.44,Debit Card,South
+TXN-00353,2024-12-21,CUST-3808,Electronics,USB-C Hub,3,188.72,566.16,Bank Transfer,North
+TXN-00354,2024-09-18,CUST-3944,Sports,Tennis Balls,2,184.65,369.3,Debit Card,East
+TXN-00355,2024-12-26,CUST-2678,Home & Garden,Candle Set,2,208.01,416.02,Debit Card,North
+TXN-00356,2024-01-07,CUST-3751,Electronics,Power Bank,1,234.95,234.95,Credit Card,East
+TXN-00357,2024-11-25,CUST-1946,Books,SQL Fundamentals,1,34.44,34.44,Credit Card,East
+TXN-00358,2024-07-03,CUST-4283,Home & Garden,Plant Pot,1,7.85,7.85,Debit Card,East
+TXN-00359,2024-07-02,CUST-4663,Books,SQL Fundamentals,1,114.92,114.92,Credit Card,West
+TXN-00360,2024-07-23,CUST-4941,Books,Machine Learning Intro,4,240.96,963.84,Debit Card,North
+TXN-00361,2024-03-08,CUST-3851,Electronics,Bluetooth Speaker,5,147.38,736.9,Bank Transfer,South
+TXN-00362,2024-11-08,CUST-2555,Home & Garden,Wall Clock,2,147.5,295.0,Bank Transfer,West
+TXN-00363,2024-01-24,CUST-1259,Home & Garden,Plant Pot,5,231.41,1157.05,Debit Card,East
+TXN-00364,2024-09-22,CUST-3142,SPORTS,Dumbbell Set,3,200.79,602.37,Debit Card,North
+TXN-00365,2024-01-06,CUST-3635,Clothing,Winter Jacket,2,27.08,54.16,Debit Card,East
+TXN-00366,2024-05-22,CUST-1206,Sports,Dumbbell Set,2,28.25,56.5,Bank Transfer,North
+TXN-00367,2024-09-12,CUST-2831,home & garden,Door Mat,1,124.01,124.01,Credit Card,North
+TXN-00368,2024-11-05,CUST-4945,Sports,Foam Roller,4,285.35,1141.4,Credit Card,South
+TXN-00369,2024-08-20,CUST-2359,Sports,Foam Roller,3,216.19,648.57,Debit Card,North
+TXN-00370,2024-06-23,CUST-2454,Home & Garden,Garden Hose,1,269.57,269.57,Bank Transfer,North
+TXN-00371,2024-05-10,CUST-3502,Clothing,Silk Scarf,4,248.24,992.96,PayPal,North
+TXN-00372,2024-07-31,CUST-1190,sports,Jump Rope,5,44.72,223.6,Credit Card,West
+TXN-00373,2024-10-26,CUST-2978,Sports,Resistance Bands,2,220.49,440.98,Bank Transfer,East
+TXN-00374,2024-09-15,CUST-4610,Books,Clean Code,2,85.71,171.42,PayPal,West
+TXN-00375,2024-03-09,CUST-1565,Books,Design Patterns,5,258.9,1294.5,Debit Card,South
+TXN-00376,2024-04-17,CUST-3556,Home & Garden,Door Mat,2,153.64,307.28,PayPal,North
+TXN-00377,2024-06-29,CUST-3303,Books,Design Patterns,5,89.35,446.75,Credit Card,North
+TXN-00378,2024-01-13,CUST-2560,Clothing,Denim Jeans,2,295.13,590.26,Debit Card,North
+TXN-00379,2024-12-19,CUST-4212,Home & Garden,Candle Set,4,35.23,140.92,Debit Card,West
+TXN-00380,2024-05-01,CUST-3092,Home & Garden,Plant Pot,4,127.88,511.52,PayPal,North
+TXN-00381,2024-01-07,CUST-4046,Home & Garden,Wall Clock,4,249.84,999.36,PayPal,South
+TXN-00382,2024-04-09,CUST-2204,Books,Design Patterns,2,221.84,443.68,Credit Card,West
+TXN-00383,2024-05-22,CUST-3279,Home & garden,Wall Clock,3,142.56,427.68,Credit Card,South
+TXN-00384,2024-06-14,CUST-3444,Electronics,Webcam,5,167.29,836.45,PayPal,South
+TXN-00385,2024-04-04,CUST-3132,Electronics,Bluetooth Speaker,5,124.0,620.0,Debit Card,East
+TXN-00386,2024-06-18,CUST-2477,Home & Garden,Wall Clock,4,299.0,1196.0,Credit Card,North
+TXN-00387,2024-12-08,CUST-2417,Books,Design Patterns,5,76.93,384.65,PayPal,West
+TXN-00388,2024-02-28,CUST-2580,Home & Garden,Garden Hose,,157.47,157.47,PayPal,West
+TXN-00389,2024-09-06,CUST-1179,Home & Garden,LED Bulb Pack,1,284.71,284.71,Credit Card,North
+TXN-00390,2024-04-17,CUST-3745,Clothing,Winter Jacket,2,163.63,327.26,Bank Transfer,North
+TXN-00391,2024-12-17,CUST-1629,Electronics,Keyboard,1,21.01,21.01,Credit Card,South
+TXN-00392,2024-05-12,CUST-2669,Books,Machine Learning Intro,1,119.9,119.9,Credit Card,North
+TXN-00393,2024-10-26,CUST-1186,Electronics,USB-C Hub,3,183.93,551.79,Bank Transfer,West
+TXN-00394,2024-07-21,CUST-4367,Electronics,Laptop Stand,4,240.04,960.16,PayPal,South
+TXN-00395,2024-06-01,CUST-3774,Home & Garden,Plant Pot,5,46.7,233.5,Bank Transfer,North
+TXN-00396,2024-06-05,CUST-1860,Home & Garden,Door Mat,2,52.48,104.96,PayPal,South
+TXN-00397,2024-02-28,CUST-1742,Sports,Tennis Balls,5,141.07,705.35,PayPal,North
+TXN-00398,2024-05-08,CUST-1402,Clothing,Winter Jacket,3,42.82,128.46,Credit Card,East
+TXN-00399,2024-11-13,CUST-1285,Clothing,Winter Jacket,3,209.56,628.68,PayPal,East
+TXN-00400,2024-08-07,CUST-1690,Electronics,Laptop Stand,4,86.62,346.48,PayPal,West
+TXN-00401,2024-08-24,CUST-2824,Home & Garden,Throw Pillow,2,195.43,390.86,PayPal,South
+TXN-00402,2024-10-02,CUST-1804,Home & Garden,Door Mat,1,268.16,268.16,Credit Card,West
+TXN-00403,2024-10-29,CUST-1871,Electronics,Power Bank,2,112.91,225.82,PayPal,South
+TXN-00404,2024-08-25,CUST-3052,sports,Foam Roller,,75.47,75.47,Debit Card,South
+TXN-00405,2024-08-16,CUST-1652,Clothing,Baseball Cap,2,222.09,444.18,PayPal,North
+TXN-00406,2024-04-22,CUST-4118,Books,SQL Fundamentals,1,202.23,202.23,PayPal,West
+TXN-00407,2024-08-28,CUST-4759,Books,Python Cookbook,3,35.45,106.35,PayPal,East
+TXN-00408,2024-10-23,CUST-3229,Sports,Dumbbell Set,5,197.73,988.65,PayPal,West
+TXN-00409,2024-04-24,CUST-3115,Books,SQL Fundamentals,4,266.71,-1066.84,Debit Card,West
+TXN-00410,2024-03-25,CUST-1942,Electronics,Webcam,2,51.42,102.84,Credit Card,South
+TXN-00411,2024-07-31,CUST-4322,Home & Garden,Throw Pillow,4,67.16,268.64,Bank Transfer,North
+TXN-00412,2024-05-04,CUST-1176,Clothing,Denim Jeans,5,16.56,82.8,Credit Card,South
+TXN-00413,2024-05-12,CUST-4778,Clothing,Winter Jacket,5,193.09,965.45,PayPal,North
+TXN-00414,2024-04-20,CUST-2839,Sports,Tennis Balls,2,249.95,499.9,Debit Card,East
+TXN-00415,2024-03-26,CUST-3966,Home & Garden,Candle Set,2,116.57,233.14,Credit Card,South
+TXN-00416,2024-09-24,CUST-4520,Sports,Tennis Balls,1,57.34,57.34,Credit Card,North
+TXN-00417,2024-02-17,CUST-2975,Clothing,Baseball Cap,4,159.0,636.0,Credit Card,West
+TXN-00418,2024-04-27,CUST-4843,Books,Machine Learning Intro,5,33.83,169.15,Bank Transfer,South
+TXN-00419,2024-02-12,CUST-2160,Sports,Jump Rope,1,214.19,214.19,Credit Card,North
+TXN-00420,2024-07-11,CUST-3681,Clothing,Running Shoes,1,50.66,50.66,PayPal,East
+TXN-00421,2024-10-01,CUST-2734,Sports,Water Bottle,4,227.71,910.84,Bank Transfer,South
+TXN-00422,2024-07-08,CUST-3290,Sports,Water Bottle,4,222.05,888.2,Credit Card,South
+TXN-00423,2024-08-16,CUST-4207,CLOTHING,Winter Jacket,5,186.13,930.65,Credit Card,South
+TXN-00424,2024-07-18,CUST-4950,Electronics,Bluetooth Speaker,5,133.43,667.15,Debit Card,East
+TXN-00425,2024-02-10,CUST-3494,Electronics,Monitor Cable,5,89.51,447.55,Credit Card,South
+TXN-00426,2024-11-23,CUST-3024,BOOKS,Clean Code,1,236.26,236.26,Debit Card,South
+TXN-00427,2024-12-11,CUST-1147,Home & Garden,Plant Pot,1,299.05,299.05,PayPal,West
+TXN-00428,2024-07-26,CUST-3400,Clothing,Wool Socks,1,167.12,167.12,PayPal,East
+TXN-00429,2024-05-21,CUST-1926,Sports,Jump Rope,5,6.37,31.85,Credit Card,North
+TXN-00430,2024-09-14,CUST-2205,Home & Garden,Wall Clock,3,263.44,790.32,PayPal,West
+TXN-00431,2024-07-12,CUST-3306,Books,SQL Fundamentals,4,206.06,824.24,Credit Card,West
+TXN-00432,2024-02-29,CUST-2056,Electronics,Laptop Stand,2,241.04,482.08,PayPal,North
+TXN-00433,2024-12-24,CUST-4408,Home & Garden,Plant Pot,3,27.43,82.29,Bank Transfer,East
+TXN-00434,2024-06-30,CUST-1895,Sports,Dumbbell Set,2,152.2,304.4,Debit Card,East
+TXN-00435,2024-04-15,CUST-1938,Clothing,Silk Scarf,2,234.78,469.56,Credit Card,West
+TXN-00436,2024-11-10,CUST-1027,Sports,Tennis Balls,5,98.04,490.2,PayPal,West
+TXN-00437,2024-04-03,CUST-4130,Sports,Resistance Bands,2,20.97,41.94,Bank Transfer,North
+TXN-00438,2024-09-14,CUST-2422,Books,Data Engineering Guide,1,210.98,210.98,Credit Card,North
+TXN-00439,2024-12-11,CUST-1863,Books,SQL Fundamentals,3,60.21,180.63,PayPal,West
+TXN-00440,2024-11-09,CUST-2405,Home & Garden,Throw Pillow,3,112.69,338.07,Bank Transfer,South
+TXN-00441,2024-10-19,CUST-1537,Sports,Tennis Balls,3,242.2,726.6,Bank Transfer,South
+TXN-00442,2024-03-15,CUST-4276,Clothing,Cotton T-Shirt,4,44.67,178.68,PayPal,West
+TXN-00443,2024-06-02,CUST-2027,Sports,Yoga Mat,2,22.71,45.42,Bank Transfer,North
+TXN-00444,2024-08-18,CUST-4049,Home & Garden,Garden Hose,3,106.52,319.56,PayPal,South
+TXN-00445,2024-10-22,CUST-3358,Sports,Tennis Balls,3,203.59,610.77,Bank Transfer,North
+TXN-00446,2024-07-14,CUST-3513,Home & Garden,LED Bulb Pack,3,129.43,388.29,Bank Transfer,North
+TXN-00447,2024-02-10,CUST-1663,Home & Garden,Garden Hose,3,183.58,550.74,Bank Transfer,East
+TXN-00448,2024-10-27,CUST-3133,Books,Data Engineering Guide,2,219.69,439.38,Credit Card,South
+TXN-00449,2024-03-26,CUST-2626,electronics,Wireless Mouse,,122.11,122.11,Credit Card,North
+TXN-00450,2024-05-14,CUST-3531,clothing,Running Shoes,3,135.73,407.19,Debit Card,North
+TXN-00451,2024-01-18,CUST-3717,Home & Garden,Garden Hose,4,292.61,1170.44,PayPal,West
+TXN-00452,2024-03-10,CUST-4971,Sports,Foam Roller,5,133.31,666.55,PayPal,East
+TXN-00453,2024-09-03,CUST-3210,Clothing,Winter Jacket,4,81.64,326.56,Credit Card,South
+TXN-00454,2024-06-25,CUST-2174,Books,Design Patterns,4,93.38,373.52,PayPal,South
+TXN-00455,2024-01-04,CUST-3245,Home & Garden,Candle Set,2,53.16,106.32,Bank Transfer,West
+TXN-00456,2024-04-22,CUST-2077,Electronics,Laptop Stand,5,243.23,1216.15,PayPal,East
+TXN-00457,2024-07-30,CUST-1770,Electronics,Webcam,4,187.22,748.88,Bank Transfer,South
+TXN-00458,2024-06-13,CUST-1079,CLOTHING,Cotton T-Shirt,1,88.22,88.22,Bank Transfer,North
+TXN-00459,2024-04-29,CUST-1369,Clothing,Running Shoes,4,299.39,1197.56,Credit Card,East
+TXN-00460,2024-02-11,CUST-4455,clothing,Cotton T-Shirt,2,61.69,123.38,Bank Transfer,North
+TXN-00461,2024-03-03,CUST-4991,Clothing,Winter Jacket,1,63.76,63.76,Credit Card,South
+TXN-00462,2024-08-30,CUST-2593,Home & Garden,LED Bulb Pack,1,224.69,224.69,Credit Card,East
+TXN-00463,2024-09-03,CUST-3615,Home & Garden,Plant Pot,2,292.11,584.22,Bank Transfer,East
+TXN-00464,2024-01-08,CUST-1685,Home & Garden,Throw Pillow,1,290.8,290.8,Bank Transfer,South
+TXN-00465,2024-07-09,CUST-4157,Electronics,Power Bank,5,104.83,524.15,Credit Card,North
+TXN-00466,2024-07-01,CUST-3640,Clothing,Silk Scarf,4,73.64,294.56,PayPal,West
+TXN-00467,2024-04-08,CUST-1087,Books,Data Engineering Guide,1,148.16,148.16,PayPal,West
+TXN-00468,2024-04-07,CUST-3321,Clothing,Running Shoes,3,260.95,782.85,Debit Card,North
+TXN-00469,2024-09-28,CUST-1634,Books,SQL Fundamentals,4,5.21,20.84,Bank Transfer,South
+TXN-00470,2024-01-10,CUST-3538,Home & Garden,LED Bulb Pack,1,199.19,199.19,Bank Transfer,South
+TXN-00471,2024-09-25,CUST-3798,Books,Data Engineering Guide,3,125.89,377.67,Credit Card,North
+TXN-00472,2024-01-23,CUST-4420,Clothing,Cotton T-Shirt,4,61.52,246.08,Bank Transfer,West
+TXN-00473,2024-09-26,CUST-3555,Sports,Water Bottle,1,8.86,8.86,Bank Transfer,North
+TXN-00474,2024-08-27,CUST-4280,Electronics,Monitor Cable,1,247.97,247.97,Credit Card,North
+TXN-00475,2024-06-04,CUST-1319,Clothing,Cotton T-Shirt,2,161.83,323.66,Debit Card,South
+TXN-00476,2024-10-12,CUST-4068,Sports,Yoga Mat,5,110.6,553.0,Bank Transfer,North
+TXN-00477,2024-03-26,CUST-4245,Clothing,Baseball Cap,2,162.5,325.0,PayPal,East
+TXN-00478,2024-10-08,CUST-2329,Home & Garden,Door Mat,3,184.48,553.44,Debit Card,West
+TXN-00479,2024-10-08,CUST-4793,Home & Garden,Throw Pillow,4,5.06,20.24,PayPal,North
+TXN-00480,2024-09-22,CUST-1553,Home & Garden,LED Bulb Pack,1,232.59,232.59,PayPal,South
+TXN-00481,2024-02-18,CUST-1154,Books,Data Engineering Guide,5,78.71,393.55,PayPal,North
+TXN-00482,2024-10-19,CUST-2637,Sports,Dumbbell Set,3,238.9,716.7,Credit Card,East
+TXN-00483,2024-01-20,CUST-3993,Sports,Tennis Balls,3,107.64,322.92,Bank Transfer,North
+TXN-00484,2024-04-26,CUST-4062,Sports,Dumbbell Set,4,20.97,83.88,PayPal,South
+TXN-00485,2024-06-16,CUST-3057,Clothing,Wool Socks,4,291.45,1165.8,Credit Card,South
+TXN-00486,2024-08-09,CUST-2186,books,Python Cookbook,1,166.7,166.7,Bank Transfer,West
+TXN-00487,2024-12-23,CUST-1534,Clothing,Denim Jeans,5,62.85,314.25,Debit Card,South
+TXN-00488,2024-02-06,CUST-2090,Books,Clean Code,4,129.94,519.76,PayPal,East
+TXN-00489,2024-10-31,CUST-3684,Electronics,Bluetooth Speaker,5,247.36,1236.8,Debit Card,West
+TXN-00490,2024-01-23,CUST-4785,Clothing,Running Shoes,1,38.15,38.15,Debit Card,East
+TXN-00491,2024-01-08,CUST-2406,Electronics,Power Bank,,66.66,66.66,Debit Card,South
+TXN-00492,2024-10-06,CUST-3143,Home & Garden,Candle Set,2,210.04,420.08,Bank Transfer,North
+TXN-00493,2024-05-10,CUST-1697,Electronics,Webcam,1,24.65,24.65,PayPal,North
+TXN-00494,2024-01-10,CUST-2198,Books,Machine Learning Intro,1,271.63,271.63,Credit Card,South
+TXN-00495,2024-04-11,CUST-3050,Books,Design Patterns,,77.98,77.98,PayPal,East
+TXN-00496,2024-09-07,CUST-2611,CLOTHING,Running Shoes,3,74.68,224.04,PayPal,North
+TXN-00497,2024-11-16,CUST-2055,Books,Python Cookbook,3,71.54,214.62,Bank Transfer,South
+TXN-00498,2024-02-14,CUST-3989,Books,Design Patterns,2,128.11,256.22,Bank Transfer,East
+TXN-00499,2024-11-05,CUST-2348,Books,Data Engineering Guide,5,164.69,823.45,Debit Card,East
+TXN-00500,2024-12-18,CUST-3888,Sports,Jump Rope,2,198.58,397.16,Debit Card,East
+TXN-00501,2024-02-04,CUST-3282,Sports,Yoga Mat,2,219.48,438.96,Bank Transfer,West
+TXN-00501,2024-06-04,CUST-2814,Home & Garden,LED Bulb Pack,2,12.73,25.46,PayPal,South
+TXN-00503,2024-11-01,CUST-1951,Clothing,Running Shoes,4,44.55,178.2,Bank Transfer,East
+TXN-00504,2024-04-04,CUST-4490,Books,Data Engineering Guide,2,14.51,29.02,Credit Card,East
+TXN-00505,2024-07-30,CUST-1911,Clothing,Cotton T-Shirt,4,260.79,1043.16,PayPal,West
+TXN-00506,2024-05-06,CUST-2751,Books,Clean Code,4,217.45,869.8,Credit Card,North
+TXN-00507,2024-08-19,CUST-2871,Electronics,Laptop Stand,4,295.22,1180.88,Bank Transfer,North
+TXN-00508,2024-04-07,CUST-2192,Books,SQL Fundamentals,3,141.09,423.27,Credit Card,South
+TXN-00509,2024-08-25,CUST-4399,BOOKS,Python Cookbook,5,281.65,1408.25,Debit Card,West
+TXN-00510,2024-07-30,CUST-2324,books,Clean Code,2,265.34,530.68,PayPal,South
+TXN-00511,2024-03-04,CUST-1373,Electronics,Keyboard,4,219.42,877.68,Debit Card,West
+TXN-00512,2024-10-08,CUST-2558,Electronics,Keyboard,2,52.82,105.64,Credit Card,West
+TXN-00513,2024-06-06,CUST-2267,Books,Data Engineering Guide,2,288.32,-576.64,PayPal,North
+TXN-00514,2024-08-22,CUST-3038,Books,Python Cookbook,4,75.17,300.68,Bank Transfer,West
+TXN-00515,2024-07-28,CUST-2809,Electronics,Wireless Mouse,5,87.04,435.2,Debit Card,North
+TXN-00516,2024-04-04,CUST-1607,Electronics,Wireless Mouse,1,201.76,201.76,PayPal,East
+TXN-00517,2024-02-14,CUST-1200,Electronics,Bluetooth Speaker,3,185.27,555.81,Debit Card,West
+TXN-00518,2024-10-23,CUST-2475,electronics,Keyboard,4,246.97,987.88,Credit Card,East
+TXN-00519,2024-08-29,CUST-1551,Electronics,Webcam,4,159.77,639.08,Credit Card,North
+TXN-00520,2024-10-19,CUST-3988,Sports,Jump Rope,5,280.49,1402.45,PayPal,West
+TXN-00521,2024-11-07,CUST-4472,Home & Garden,Candle Set,3,278.49,835.47,Bank Transfer,West
+TXN-00522,2024-09-09,CUST-4309,Clothing,Denim Jeans,2,5.47,10.94,Credit Card,South
+TXN-00523,2024-11-11,CUST-2698,books,Clean Code,2,8.33,16.66,PayPal,East
+TXN-00524,2024-02-04,CUST-2260,Home & Garden,Garden Hose,1,207.31,207.31,Credit Card,South
+TXN-00525,2024-04-09,CUST-2353,Home & Garden,Throw Pillow,1,195.46,195.46,Bank Transfer,East
+TXN-00526,2024-08-24,CUST-4211,Books,Python Cookbook,3,171.65,514.95,Credit Card,South
+TXN-00527,2024-10-22,CUST-3807,Home & Garden,Wall Clock,2,87.73,175.46,Bank Transfer,South
+TXN-00528,2024-10-19,CUST-3480,Books,Python Cookbook,3,213.05,639.15,Credit Card,East
+TXN-00529,2024-07-30,CUST-1355,Books,SQL Fundamentals,3,68.76,206.28,Credit Card,East
+TXN-00530,2024-01-20,CUST-4185,Clothing,Winter Jacket,4,271.95,1087.8,PayPal,West
+TXN-00531,2024-09-25,CUST-2271,Home & Garden,Wall Clock,5,204.62,1023.1,Credit Card,West
+TXN-00532,2024-07-17,CUST-3923,sports,Yoga Mat,5,262.19,1310.95,Credit Card,North
+TXN-00533,2024-09-23,CUST-4138,home & garden,Door Mat,3,64.16,192.48,PayPal,West
+TXN-00534,2024-12-09,CUST-1481,home & garden,Plant Pot,,188.76,188.76,Credit Card,South
+TXN-00535,2024-10-04,CUST-2434,Sports,Resistance Bands,3,174.35,523.05,PayPal,East
+TXN-00536,2024-10-03,CUST-2817,electronics,Wireless Mouse,1,30.4,30.4,Bank Transfer,East
+TXN-00537,2024-06-08,CUST-2361,Clothing,Wool Socks,1,292.23,292.23,Bank Transfer,South
+TXN-00538,2024-02-17,CUST-4329,books,Design Patterns,4,143.81,575.24,Debit Card,East
+TXN-00539,2024-07-05,CUST-2605,Clothing,Wool Socks,3,138.71,416.13,Bank Transfer,North
+TXN-00540,2024-06-28,CUST-2960,Books,SQL Fundamentals,5,174.52,872.6,Bank Transfer,North
+TXN-00541,2024-06-15,CUST-3277,Electronics,Power Bank,4,75.38,301.52,Debit Card,West
+TXN-00542,2024-07-15,CUST-1270,Home & Garden,Door Mat,4,172.32,689.28,Debit Card,South
+TXN-00543,2024-12-05,CUST-3742,Electronics,Power Bank,5,141.55,707.75,Bank Transfer,South
+TXN-00544,2024-06-06,CUST-4915,Books,Design Patterns,4,101.58,406.32,Credit Card,North
+TXN-00545,2024-04-21,CUST-4346,Clothing,Silk Scarf,1,228.33,228.33,Bank Transfer,East
+TXN-00546,2024-07-18,CUST-3521,Sports,Resistance Bands,3,93.42,280.26,PayPal,West
+TXN-00547,2024-06-25,CUST-1365,SPORTS,Jump Rope,3,23.41,70.23,Credit Card,North
+TXN-00548,2024-12-26,CUST-3293,home & garden,Wall Clock,4,212.15,848.6,PayPal,West
+TXN-00549,2024-07-26,CUST-2562,Books,Design Patterns,2,60.53,121.06,PayPal,West
+TXN-00550,2024-03-19,CUST-2181,Clothing,Wool Socks,,217.79,217.79,Bank Transfer,West
+TXN-00551,2024-03-10,CUST-1346,Clothing,Winter Jacket,5,279.43,1397.15,Bank Transfer,West
+TXN-00552,2024-10-09,CUST-4359,Books,Data Engineering Guide,5,7.19,35.95,Debit Card,East
+TXN-00553,2024-07-29,CUST-4795,Sports,Yoga Mat,5,147.56,737.8,Bank Transfer,North
+TXN-00554,2024-03-13,CUST-3990,Sports,Tennis Balls,4,157.49,629.96,Credit Card,South
+TXN-00555,2024-08-29,CUST-3583,Electronics,Webcam,3,162.83,-488.49,Bank Transfer,West
+TXN-00556,2024-10-20,CUST-4005,Home & Garden,Wall Clock,2,15.42,30.84,PayPal,East
+TXN-00557,2024-02-01,CUST-3577,Books,Clean Code,3,243.62,730.86,PayPal,West
+TXN-00558,2024-02-12,CUST-1519,sports,Water Bottle,3,86.19,258.57,Credit Card,South
+TXN-00559,2024-10-29,CUST-4026,Clothing,Running Shoes,3,235.84,707.52,Debit Card,North
+TXN-00560,2024-06-24,CUST-1345,Clothing,Silk Scarf,4,227.06,908.24,Bank Transfer,South
+TXN-00561,2024-12-04,CUST-2802,Clothing,Wool Socks,1,194.46,194.46,Credit Card,North
+TXN-00562,2024-03-26,CUST-2900,Books,Machine Learning Intro,5,73.93,369.65,Bank Transfer,West
+TXN-00563,2024-05-14,CUST-1594,Sports,Yoga Mat,4,117.69,470.76,Credit Card,North
+TXN-00564,2024-09-29,CUST-3610,Home & Garden,Throw Pillow,3,103.81,311.43,Credit Card,East
+TXN-00565,2024-12-01,CUST-3392,Books,Design Patterns,5,232.29,1161.45,Debit Card,East
+TXN-00566,2024-10-07,CUST-1043,Electronics,Wireless Mouse,5,35.65,178.25,Debit Card,East
+TXN-00567,2024-05-08,CUST-1790,Electronics,Wireless Mouse,2,285.38,570.76,Credit Card,North
+TXN-00568,2024-11-05,CUST-1532,Books,Design Patterns,2,269.31,538.62,PayPal,East
+TXN-00569,2024-08-27,CUST-3705,Electronics,Webcam,3,80.91,242.73,PayPal,North
+TXN-00570,2024-07-14,CUST-2591,Home & Garden,Garden Hose,3,57.49,172.47,Debit Card,West
+TXN-00571,2024-04-01,CUST-3643,BOOKS,Machine Learning Intro,1,274.21,274.21,Credit Card,North
+TXN-00572,2024-02-07,CUST-1288,Sports,Tennis Balls,4,48.91,195.64,Credit Card,West
+TXN-00573,2024-05-16,CUST-1620,Home & Garden,Candle Set,,213.74,213.74,Bank Transfer,West
+TXN-00574,2024-08-11,CUST-2654,Electronics,Wireless Mouse,4,40.75,163.0,PayPal,East
+TXN-00575,2024-12-15,CUST-2240,BOOKS,Python Cookbook,3,28.73,86.19,PayPal,South
+TXN-00576,2024-03-31,CUST-3271,Electronics,Laptop Stand,4,269.45,1077.8,PayPal,West
+TXN-00577,2024-02-13,CUST-4625,Books,Data Engineering Guide,1,217.32,217.32,Bank Transfer,West
+TXN-00578,2024-02-02,CUST-4247,Sports,Jump Rope,4,290.13,-1160.52,PayPal,North
+TXN-00579,2024-06-21,CUST-4226,Electronics,Laptop Stand,5,140.21,701.05,Debit Card,South
+TXN-00580,2024-02-06,CUST-1151,Clothing,Cotton T-Shirt,5,18.51,92.55,Debit Card,North
+TXN-00581,2024-03-29,CUST-3591,Electronics,USB-C Hub,2,251.42,502.84,Credit Card,North
+TXN-00582,2024-09-11,CUST-3437,Sports,Tennis Balls,3,244.39,733.17,Bank Transfer,East
+TXN-00583,2024-03-02,CUST-4997,Sports,Water Bottle,2,230.44,460.88,PayPal,North
+TXN-00584,2024-03-02,CUST-2121,Clothing,Denim Jeans,5,53.68,268.4,Credit Card,South
+TXN-00585,2024-02-21,CUST-4240,Sports,Resistance Bands,,148.65,148.65,Credit Card,North
+TXN-00586,2024-04-01,CUST-4793,Electronics,Webcam,4,209.24,836.96,PayPal,West
+TXN-00587,2024-07-29,CUST-1979,Clothing,Cotton T-Shirt,4,185.55,742.2,PayPal,East
+TXN-00588,2024-08-02,CUST-1018,Sports,Yoga Mat,1,187.58,187.58,Debit Card,West
+TXN-00589,2024-11-16,CUST-3700,Clothing,Denim Jeans,2,207.14,414.28,Bank Transfer,West
+TXN-00590,2024-03-31,CUST-1654,electronics,Webcam,3,103.61,310.83,Bank Transfer,North
+TXN-00591,2024-02-23,CUST-4032,Electronics,Bluetooth Speaker,1,148.09,148.09,Debit Card,West
+TXN-00592,2024-10-30,CUST-3374,Home & Garden,Door Mat,3,72.87,218.61,Debit Card,North
+TXN-00593,2024-05-01,CUST-4021,Books,Machine Learning Intro,1,143.94,143.94,Bank Transfer,South
+TXN-00594,2024-04-20,CUST-4800,Sports,Jump Rope,4,217.34,869.36,PayPal,South
+TXN-00595,2024-06-20,CUST-1521,Electronics,Wireless Mouse,1,256.23,256.23,Debit Card,East
+TXN-00596,2024-04-22,CUST-4630,Home & Garden,Wall Clock,5,272.14,1360.7,Debit Card,North
+TXN-00597,2024-07-29,CUST-4510,Sports,Resistance Bands,4,87.35,349.4,Debit Card,South
+TXN-00598,2024-06-16,CUST-2778,Sports,Foam Roller,5,269.98,1349.9,Credit Card,North
+TXN-00599,2024-08-28,CUST-4004,SPORTS,Jump Rope,1,138.47,138.47,Credit Card,West
+TXN-00600,2024-04-21,CUST-1543,Home & Garden,Door Mat,1,146.53,146.53,Bank Transfer,North
+TXN-00601,2024-08-20,CUST-2899,Clothing,Winter Jacket,3,189.9,569.7,Credit Card,North
+TXN-00602,2024-07-16,CUST-4659,Home & Garden,Garden Hose,3,210.92,632.76,Debit Card,North
+TXN-00603,2024-11-13,CUST-4607,Home & Garden,Plant Pot,3,266.94,800.82,PayPal,West
+TXN-00604,2024-11-12,CUST-1167,Home & Garden,Door Mat,1,170.42,170.42,Debit Card,East
+TXN-00605,2024-05-02,CUST-3210,Electronics,Laptop Stand,2,99.53,199.06,Bank Transfer,East
+TXN-00606,2024-01-28,CUST-1259,Home & Garden,Throw Pillow,1,143.69,143.69,PayPal,West
+TXN-00607,2024-11-13,CUST-2507,Electronics,Power Bank,4,269.89,1079.56,Credit Card,North
+TXN-00608,2024-03-25,CUST-2130,Electronics,Power Bank,2,158.6,317.2,PayPal,West
+TXN-00609,2024-12-15,CUST-3217,Clothing,Winter Jacket,1,90.99,90.99,Debit Card,East
+TXN-00610,2024-07-29,CUST-3370,Home & Garden,Wall Clock,5,201.42,1007.1,Bank Transfer,West
+TXN-00611,2024-06-04,CUST-3323,Clothing,Running Shoes,3,71.9,215.7,PayPal,North
+TXN-00612,2024-03-16,CUST-2446,Home & Garden,LED Bulb Pack,2,214.98,429.96,Debit Card,South
+TXN-00613,2024-03-23,CUST-1974,electronics,Bluetooth Speaker,3,59.42,178.26,Credit Card,East
+TXN-00614,2024-06-25,CUST-1605,Home & Garden,LED Bulb Pack,1,276.52,276.52,Bank Transfer,South
+TXN-00615,2024-08-22,CUST-4800,Home & Garden,Door Mat,5,102.72,513.6,Bank Transfer,East
+TXN-00616,2024-10-20,CUST-3731,Clothing,Wool Socks,4,104.91,419.64,Bank Transfer,North
+TXN-00617,2024-03-12,CUST-3777,Sports,Jump Rope,2,136.56,273.12,Credit Card,South
+TXN-00618,2024-10-25,CUST-3156,Clothing,Silk Scarf,1,29.66,29.66,Credit Card,West
+TXN-00619,2024-04-09,CUST-3008,Home & Garden,Candle Set,3,122.28,366.84,Bank Transfer,East
+TXN-00620,2024-07-16,CUST-2527,Electronics,Keyboard,4,262.91,1051.64,Bank Transfer,West
+TXN-00621,2024-08-14,CUST-2182,Clothing,Winter Jacket,4,46.17,184.68,Credit Card,South
+TXN-00622,2024-04-16,CUST-2242,Books,Clean Code,1,280.27,280.27,Bank Transfer,North
+TXN-00623,2024-01-04,CUST-2677,Home & Garden,Candle Set,5,227.79,1138.95,Debit Card,West
+TXN-00624,2024-05-28,CUST-3268,books,Clean Code,5,223.25,1116.25,Credit Card,South
+TXN-00625,2024-05-14,CUST-2229,BOOKS,SQL Fundamentals,4,272.49,1089.96,Credit Card,North
+TXN-00626,2024-05-21,CUST-3019,Electronics,Keyboard,5,133.64,668.2,Bank Transfer,North
+TXN-00627,2024-07-10,CUST-3099,sports,Resistance Bands,2,99.3,198.6,Debit Card,East
+TXN-00628,2024-03-24,CUST-1216,Home & Garden,Door Mat,3,19.37,58.11,Credit Card,South
+TXN-00629,2024-11-17,CUST-1750,Electronics,Bluetooth Speaker,3,248.9,746.7,PayPal,East
+TXN-00630,2024-12-16,CUST-3858,Home & garden,Garden Hose,1,45.4,45.4,Bank Transfer,West
+TXN-00631,2024-06-23,CUST-4772,Clothing,Baseball Cap,2,239.55,479.1,Credit Card,West
+TXN-00632,2024-08-23,CUST-4752,Electronics,Wireless Mouse,3,208.85,626.55,Bank Transfer,East
+TXN-00633,2024-03-29,CUST-3907,Home & Garden,LED Bulb Pack,2,207.97,415.94,Debit Card,South
+TXN-00634,2024-02-10,CUST-2740,electronics,Monitor Cable,1,14.67,14.67,Credit Card,West
+TXN-00635,2024-03-01,CUST-4721,home & garden,Door Mat,,33.47,33.47,Credit Card,South
+TXN-00636,2024-10-27,CUST-4691,Clothing,Running Shoes,,47.94,47.94,PayPal,East
+TXN-00637,2024-06-29,CUST-1657,Sports,Foam Roller,5,25.16,125.8,Credit Card,South
+TXN-00638,2024-04-08,CUST-4949,Home & Garden,Wall Clock,1,277.64,277.64,Bank Transfer,East
+TXN-00639,2024-12-23,CUST-3414,Clothing,Cotton T-Shirt,3,294.47,883.41,Debit Card,West
+TXN-00640,2024-02-27,CUST-4118,Home & Garden,Candle Set,3,212.89,638.67,Credit Card,North
+TXN-00641,2024-06-16,CUST-3022,Electronics,Power Bank,3,207.67,623.01,Debit Card,West
+TXN-00642,2024-05-28,CUST-4503,Books,Python Cookbook,4,282.02,1128.08,Credit Card,West
+TXN-00643,2024-12-10,CUST-1430,Books,Design Patterns,1,47.29,47.29,Credit Card,South
+TXN-00644,2024-02-03,CUST-2489,Clothing,Baseball Cap,4,41.21,164.84,Bank Transfer,East
+TXN-00645,2024-12-31,CUST-4137,Sports,Tennis Balls,4,110.05,440.2,Bank Transfer,West
+TXN-00646,2024-09-18,CUST-2142,Clothing,Cotton T-Shirt,4,151.69,606.76,Debit Card,North
+TXN-00647,2024-02-20,CUST-4022,Electronics,Power Bank,2,117.87,235.74,Debit Card,East
+TXN-00648,2024-11-14,CUST-3552,Electronics,Power Bank,2,91.6,183.2,PayPal,East
+TXN-00649,2024-10-03,CUST-3238,Electronics,Wireless Mouse,1,118.17,118.17,Bank Transfer,West
+TXN-00650,2024-08-23,CUST-1147,Electronics,Webcam,2,149.98,299.96,Bank Transfer,West
+TXN-00651,2024-02-26,CUST-3330,Books,Design Patterns,4,145.39,581.56,Credit Card,West
+TXN-00652,2024-05-14,CUST-3026,Sports,Foam Roller,3,99.54,298.62,Credit Card,South
+TXN-00653,2024-07-06,CUST-2428,SPORTS,Water Bottle,4,106.81,427.24,PayPal,North
+TXN-00654,2024-12-04,CUST-2000,Clothing,Running Shoes,1,261.33,261.33,Debit Card,North
+TXN-00655,2024-10-02,CUST-2335,Electronics,Monitor Cable,4,83.65,334.6,Credit Card,East
+TXN-00656,2024-07-12,CUST-3336,Books,Python Cookbook,1,208.8,208.8,Bank Transfer,East
+TXN-00657,2024-03-26,CUST-3518,Home & Garden,Throw Pillow,1,252.9,252.9,PayPal,East
+TXN-00658,2024-01-25,CUST-2217,Sports,Resistance Bands,1,216.72,216.72,PayPal,East
+TXN-00659,2024-02-04,CUST-3320,Sports,Resistance Bands,1,197.2,197.2,PayPal,West
+TXN-00660,2024-12-05,CUST-3211,Home & Garden,Throw Pillow,5,138.7,693.5,Debit Card,North
+TXN-00661,2024-11-17,CUST-3880,Sports,Foam Roller,4,84.04,336.16,Bank Transfer,North
+TXN-00662,2024-09-24,CUST-1821,Home & Garden,LED Bulb Pack,3,254.01,762.03,Credit Card,South
+TXN-00663,2024-07-30,CUST-2093,Home & Garden,Garden Hose,2,124.73,249.46,Debit Card,North
+TXN-00664,2024-05-05,CUST-4264,Home & Garden,Candle Set,4,195.84,783.36,Debit Card,East
+TXN-00665,2024-03-10,CUST-1119,Home & Garden,Garden Hose,2,195.06,390.12,Bank Transfer,North
+TXN-00666,2024-01-29,CUST-4520,Electronics,Webcam,4,269.54,1078.16,Credit Card,West
+TXN-00667,2024-03-12,CUST-1966,Electronics,USB-C Hub,5,285.14,1425.7,PayPal,West
+TXN-00668,2024-02-16,CUST-1975,sports,Water Bottle,4,242.72,970.88,Bank Transfer,South
+TXN-00669,2024-03-14,CUST-1437,Clothing,Running Shoes,3,259.55,778.65,PayPal,North
+TXN-00670,2024-06-11,CUST-3235,Books,Data Engineering Guide,2,112.08,224.16,PayPal,North
+TXN-00671,2024-11-26,CUST-4960,SPORTS,Dumbbell Set,1,208.74,208.74,Debit Card,East
+TXN-00672,2024-10-09,CUST-2575,Home & Garden,Door Mat,1,162.79,162.79,Bank Transfer,West
+TXN-00673,2024-01-05,CUST-4726,Books,SQL Fundamentals,2,92.74,185.48,Debit Card,West
+TXN-00674,2024-11-19,CUST-2299,Books,SQL Fundamentals,4,143.97,575.88,PayPal,West
+TXN-00675,2024-02-21,CUST-4376,Clothing,Baseball Cap,4,182.62,730.48,PayPal,West
+TXN-00676,2024-12-21,CUST-1112,Electronics,Bluetooth Speaker,2,5.91,11.82,PayPal,East
+TXN-00677,2024-10-21,CUST-1336,Electronics,Bluetooth Speaker,4,238.82,955.28,Bank Transfer,South
+TXN-00678,2024-05-13,CUST-1710,Sports,Tennis Balls,1,127.27,127.27,Bank Transfer,South
+TXN-00679,2024-01-11,CUST-4883,Electronics,Laptop Stand,4,63.49,253.96,Debit Card,North
+TXN-00680,2024-07-24,CUST-3531,Books,Data Engineering Guide,3,55.18,165.54,Credit Card,West
+TXN-00681,2024-08-20,CUST-4388,BOOKS,Data Engineering Guide,3,89.95,269.85,Debit Card,West
+TXN-00682,2024-04-15,CUST-3457,Clothing,Running Shoes,2,128.4,256.8,Debit Card,North
+TXN-00683,2024-05-28,CUST-4998,Home & Garden,Throw Pillow,3,176.95,530.85,Credit Card,North
+TXN-00684,2024-08-28,CUST-1545,Home & Garden,Throw Pillow,4,213.99,855.96,PayPal,North
+TXN-00685,2024-02-18,CUST-3281,Electronics,Power Bank,5,282.09,1410.45,Credit Card,North
+TXN-00686,2024-05-09,CUST-3066,Sports,Jump Rope,2,290.57,581.14,Debit Card,East
+TXN-00687,2024-03-27,CUST-3063,Books,Machine Learning Intro,3,214.52,643.56,PayPal,North
+TXN-00688,2024-06-09,CUST-1180,Clothing,Silk Scarf,3,278.23,834.69,PayPal,East
+TXN-00689,2024-09-21,CUST-2282,Books,SQL Fundamentals,4,230.28,921.12,Bank Transfer,North
+TXN-00690,2024-04-06,CUST-1608,Electronics,Wireless Mouse,2,213.25,426.5,Bank Transfer,North
+TXN-00691,2024-08-14,CUST-2460,Sports,Jump Rope,2,41.48,82.96,PayPal,South
+TXN-00692,2024-03-27,CUST-4071,Sports,Foam Roller,5,67.65,338.25,Credit Card,South
+TXN-00693,2024-08-01,CUST-4770,Electronics,Power Bank,3,12.66,37.98,Credit Card,West
+TXN-00694,2024-07-10,CUST-3418,Electronics,Bluetooth Speaker,,140.76,140.76,Bank Transfer,West
+TXN-00695,2024-11-17,CUST-4912,Home & Garden,Plant Pot,1,198.56,198.56,PayPal,South
+TXN-00696,2024-04-18,CUST-4535,Electronics,Webcam,1,224.41,224.41,Bank Transfer,North
+TXN-00697,2024-07-23,CUST-2045,Clothing,Silk Scarf,1,11.05,11.05,Bank Transfer,West
+TXN-00698,2024-05-25,CUST-3650,clothing,Silk Scarf,3,271.59,814.77,PayPal,North
+TXN-00699,2024-07-07,CUST-3099,Clothing,Winter Jacket,5,182.09,910.45,Bank Transfer,East
+TXN-00700,2024-11-10,CUST-1763,Books,Python Cookbook,3,292.11,876.33,Debit Card,West
+TXN-00701,2024-09-26,CUST-3578,sports,Jump Rope,4,93.61,374.44,PayPal,South
+TXN-00702,2024-09-24,CUST-2751,Home & Garden,Candle Set,1,156.45,156.45,Bank Transfer,North
+TXN-00703,2024-08-25,CUST-3706,Sports,Water Bottle,1,231.74,-231.74,Bank Transfer,South
+TXN-00704,2024-04-03,CUST-4452,books,Design Patterns,5,218.6,1093.0,Bank Transfer,East
+TXN-00705,2024-06-23,CUST-4959,Clothing,Cotton T-Shirt,5,81.5,407.5,Bank Transfer,North
+TXN-00706,2024-01-03,CUST-2617,ELECTRONICS,Power Bank,4,261.28,1045.12,Bank Transfer,East
+TXN-00707,2024-11-12,CUST-4330,Sports,Dumbbell Set,4,242.36,969.44,Debit Card,North
+TXN-00708,2024-04-07,CUST-1458,Electronics,Laptop Stand,2,146.92,293.84,Debit Card,West
+TXN-00709,2024-11-16,CUST-4515,Sports,Water Bottle,2,144.82,289.64,Debit Card,South
+TXN-00710,2024-12-25,CUST-2823,Books,Machine Learning Intro,2,91.97,183.94,Bank Transfer,North
+TXN-00711,2024-06-19,CUST-1032,Electronics,Monitor Cable,4,222.43,889.72,PayPal,North
+TXN-00712,2024-09-06,CUST-2637,Books,Design Patterns,4,73.41,293.64,Credit Card,West
+TXN-00713,2024-10-22,CUST-2293,SPORTS,Jump Rope,1,150.96,150.96,PayPal,West
+TXN-00714,2024-12-23,CUST-2786,Electronics,Laptop Stand,4,73.47,293.88,PayPal,West
+TXN-00715,2024-03-08,CUST-4617,Home & Garden,Throw Pillow,3,239.8,719.4,Debit Card,South
+TXN-00716,2024-05-24,CUST-3829,Electronics,Bluetooth Speaker,2,183.69,367.38,Bank Transfer,West
+TXN-00717,2024-06-04,CUST-1961,Clothing,Cotton T-Shirt,3,110.32,330.96,Credit Card,North
+TXN-00718,2024-06-21,CUST-2763,Electronics,USB-C Hub,4,81.05,324.2,PayPal,North
+TXN-00719,2024-10-12,CUST-2095,Clothing,Silk Scarf,1,213.38,213.38,Bank Transfer,West
+TXN-00720,2024-02-26,CUST-4992,Electronics,USB-C Hub,1,154.65,154.65,Credit Card,South
+TXN-00721,2024-07-04,CUST-1643,Home & Garden,Wall Clock,1,50.52,50.52,Debit Card,North
+TXN-00722,2024-04-13,CUST-2798,Books,Python Cookbook,4,105.69,422.76,Credit Card,East
+TXN-00723,2024-07-09,CUST-3929,Books,Design Patterns,5,129.4,647.0,Bank Transfer,West
+TXN-00724,2024-07-28,CUST-4678,Books,Clean Code,3,283.39,850.17,Credit Card,North
+TXN-00725,2024-02-13,CUST-2385,Home & Garden,Wall Clock,1,121.01,121.01,Debit Card,North
+TXN-00726,2024-11-19,CUST-3921,Sports,Jump Rope,5,262.69,1313.45,PayPal,East
+TXN-00727,2024-01-05,CUST-4387,Home & Garden,Candle Set,4,136.62,546.48,Bank Transfer,East
+TXN-00728,2024-11-28,CUST-2656,Clothing,Cotton T-Shirt,3,120.04,360.12,Debit Card,East
+TXN-00729,2024-04-19,CUST-1380,Sports,Foam Roller,2,11.91,23.82,PayPal,South
+TXN-00730,2024-06-04,CUST-3975,Books,Python Cookbook,3,81.63,244.89,Credit Card,North
+TXN-00731,2024-11-29,CUST-4855,Electronics,Wireless Mouse,2,242.58,485.16,Debit Card,East
+TXN-00732,2024-06-02,CUST-2165,Sports,Dumbbell Set,2,36.04,72.08,Debit Card,East
+TXN-00733,2024-08-20,CUST-1401,Clothing,Silk Scarf,1,23.35,23.35,Bank Transfer,South
+TXN-00734,2024-08-16,CUST-1319,Home & Garden,Throw Pillow,5,234.75,1173.75,Bank Transfer,West
+TXN-00735,2024-08-13,CUST-3822,Books,Machine Learning Intro,2,154.2,308.4,Bank Transfer,South
+TXN-00736,2024-12-26,CUST-3102,Sports,Jump Rope,2,283.49,566.98,Credit Card,West
+TXN-00737,2024-02-26,CUST-1495,Home & Garden,Plant Pot,1,114.58,114.58,PayPal,East
+TXN-00738,2024-09-05,CUST-1114,CLOTHING,Winter Jacket,3,267.26,801.78,Bank Transfer,North
+TXN-00739,2024-03-03,CUST-3242,Home & Garden,Throw Pillow,3,171.89,515.67,Bank Transfer,West
+TXN-00740,2024-11-06,CUST-1543,Clothing,Winter Jacket,4,48.95,195.8,Credit Card,West
+TXN-00741,2024-07-17,CUST-1953,Books,Python Cookbook,4,222.09,888.36,Debit Card,North
+TXN-00742,2024-10-19,CUST-3580,Home & Garden,Plant Pot,1,61.76,61.76,Credit Card,South
+TXN-00743,2024-08-31,CUST-3058,ELECTRONICS,Bluetooth Speaker,3,237.09,711.27,Bank Transfer,North
+TXN-00744,2024-09-30,CUST-3485,Home & Garden,Plant Pot,1,105.28,105.28,Credit Card,East
+TXN-00745,2024-07-14,CUST-2053,Electronics,Bluetooth Speaker,2,80.39,160.78,PayPal,West
+TXN-00746,2024-12-13,CUST-1693,Electronics,Keyboard,1,92.91,92.91,Debit Card,West
+TXN-00747,2024-06-14,CUST-2056,Books,Python Cookbook,2,226.87,453.74,Bank Transfer,West
+TXN-00748,2024-02-28,CUST-2103,Electronics,Monitor Cable,1,125.21,125.21,Credit Card,East
+TXN-00749,2024-10-10,CUST-4946,Sports,Resistance Bands,2,94.86,189.72,Credit Card,South
+TXN-00750,2024-03-13,CUST-2529,Sports,Tennis Balls,4,288.59,1154.36,Credit Card,North
+TXN-00751,2024-08-25,CUST-4936,Sports,Resistance Bands,,280.38,280.38,Bank Transfer,East
+TXN-00752,2024-11-02,CUST-2027,Books,Design Patterns,5,87.98,439.9,Credit Card,East
+TXN-00753,2024-02-15,CUST-2619,Electronics,Webcam,2,185.08,370.16,PayPal,East
+TXN-00754,2024-11-21,CUST-2070,Books,Design Patterns,3,67.13,201.39,PayPal,North
+TXN-00755,2024-12-20,CUST-1547,Electronics,Wireless Mouse,2,126.88,253.76,Bank Transfer,West
+TXN-00756,2024-10-02,CUST-1332,Electronics,Power Bank,3,291.74,875.22,PayPal,West
+TXN-00757,2024-03-31,CUST-4437,electronics,Laptop Stand,2,224.22,448.44,PayPal,South
+TXN-00758,2024-02-16,CUST-4343,Sports,Tennis Balls,2,294.13,588.26,Credit Card,East
+TXN-00759,2024-09-09,CUST-4704,Sports,Resistance Bands,4,37.73,150.92,Bank Transfer,South
+TXN-00760,2024-10-09,CUST-1793,Sports,Foam Roller,1,178.5,178.5,Debit Card,East
+TXN-00761,2024-10-18,CUST-4504,Clothing,Wool Socks,2,255.05,510.1,PayPal,West
+TXN-00762,2024-01-02,CUST-4841,Books,Design Patterns,3,132.6,397.8,PayPal,North
+TXN-00763,2024-12-14,CUST-3122,Books,Clean Code,2,18.85,37.7,Bank Transfer,East
+TXN-00764,2024-01-03,CUST-2605,Clothing,Baseball Cap,2,293.53,587.06,Credit Card,South
+TXN-00765,2024-04-10,CUST-1673,Home & Garden,Door Mat,1,146.59,146.59,PayPal,East
+TXN-00766,2024-05-06,CUST-1441,Books,SQL Fundamentals,3,158.3,474.9,Credit Card,West
+TXN-00767,2024-02-18,CUST-3561,Books,Python Cookbook,1,116.33,116.33,Credit Card,South
+TXN-00768,2024-02-01,CUST-4764,BOOKS,Design Patterns,1,204.87,204.87,PayPal,West
+TXN-00769,2024-07-24,CUST-1392,Sports,Resistance Bands,5,8.13,40.65,Bank Transfer,North
+TXN-00770,2024-06-22,CUST-3666,Electronics,Keyboard,1,35.29,35.29,Credit Card,South
+TXN-00771,2024-10-20,CUST-1516,Sports,Jump Rope,5,136.16,680.8,Credit Card,North
+TXN-00772,2024-03-06,CUST-2276,Sports,Dumbbell Set,3,177.18,531.54,Debit Card,South
+TXN-00773,2024-08-28,CUST-2264,Sports,Water Bottle,5,177.99,889.95,Credit Card,South
+TXN-00774,2024-09-16,CUST-4355,Sports,Jump Rope,2,193.96,387.92,Credit Card,East
+TXN-00775,2024-04-06,CUST-3735,Books,Machine Learning Intro,3,256.33,768.99,PayPal,East
+TXN-00776,2024-08-02,CUST-2346,Clothing,Winter Jacket,1,193.43,193.43,Bank Transfer,South
+TXN-00777,2024-05-02,CUST-2969,Home & Garden,Throw Pillow,2,248.69,-497.38,Credit Card,North
+TXN-00778,2024-07-02,CUST-1122,sports,Jump Rope,5,274.24,1371.2,Credit Card,South
+TXN-00779,2024-04-11,CUST-2163,Clothing,Running Shoes,3,255.01,765.03,Debit Card,North
+TXN-00780,2024-03-31,CUST-4452,Home & Garden,Plant Pot,2,116.78,233.56,Credit Card,East
+TXN-00781,2024-04-17,CUST-2249,Books,SQL Fundamentals,5,293.24,1466.2,Bank Transfer,North
+TXN-00782,2024-03-01,CUST-1591,Clothing,Denim Jeans,3,98.79,296.37,Debit Card,North
+TXN-00783,2024-11-11,CUST-3405,Clothing,Running Shoes,3,77.91,233.73,PayPal,South
+TXN-00784,2024-09-17,CUST-4966,Sports,Resistance Bands,4,238.34,953.36,Debit Card,West
+TXN-00785,2024-11-26,CUST-4076,Sports,Foam Roller,3,215.18,645.54,Bank Transfer,West
+TXN-00786,2024-08-30,CUST-2099,Sports,Tennis Balls,1,66.12,66.12,Bank Transfer,South
+TXN-00787,2024-07-21,CUST-1895,Home & Garden,Throw Pillow,3,80.08,240.24,Credit Card,East
+TXN-00788,2024-08-15,CUST-3125,Home & Garden,Plant Pot,5,104.23,521.15,Bank Transfer,West
+TXN-00789,2024-07-07,CUST-4295,Books,Machine Learning Intro,,135.29,135.29,PayPal,North
+TXN-00790,2024-07-02,CUST-4692,Electronics,USB-C Hub,2,34.03,68.06,Credit Card,South
+TXN-00791,2024-06-19,CUST-1805,Home & Garden,Door Mat,3,61.24,183.72,Debit Card,East
+TXN-00792,2024-01-05,CUST-4154,Home & Garden,Garden Hose,4,284.01,1136.04,Credit Card,West
+TXN-00793,2024-11-30,CUST-3099,Clothing,Denim Jeans,2,144.95,289.9,Bank Transfer,West
+TXN-00794,2024-06-23,CUST-4243,Electronics,Laptop Stand,4,66.83,267.32,Credit Card,East
+TXN-00795,2024-03-12,CUST-3365,Clothing,Wool Socks,,244.06,244.06,PayPal,East
+TXN-00796,2024-04-25,CUST-2716,Books,Machine Learning Intro,5,93.39,466.95,Credit Card,South
+TXN-00797,2024-03-19,CUST-4902,Home & Garden,Wall Clock,5,174.29,871.45,Bank Transfer,South
+TXN-00798,2024-07-19,CUST-1260,Sports,Jump Rope,5,288.76,1443.8,PayPal,North
+TXN-00799,2024-03-28,CUST-1427,Sports,Tennis Balls,4,12.92,51.68,Bank Transfer,East
+TXN-00800,2024-04-15,CUST-1954,Home & Garden,Plant Pot,3,157.96,473.88,Bank Transfer,West
+TXN-00801,2024-03-21,CUST-1453,Clothing,Winter Jacket,4,286.74,1146.96,Debit Card,South
+TXN-00801,2024-06-07,CUST-2770,Books,Clean Code,5,64.87,324.35,Bank Transfer,East
+TXN-00803,2024-04-13,CUST-1030,Clothing,Silk Scarf,2,160.12,320.24,Bank Transfer,West
+TXN-00804,2024-08-24,CUST-3359,Electronics,Webcam,4,107.3,429.2,PayPal,West
+TXN-00805,2024-11-09,CUST-4372,Clothing,Denim Jeans,4,140.05,560.2,Debit Card,North
+TXN-00806,2024-07-20,CUST-3861,Electronics,Bluetooth Speaker,5,91.1,455.5,Debit Card,West
+TXN-00807,2024-07-29,CUST-4120,sports,Yoga Mat,5,231.12,1155.6,Bank Transfer,South
+TXN-00808,2024-05-09,CUST-1849,Sports,Yoga Mat,4,117.44,469.76,Debit Card,West
+TXN-00809,2024-01-20,CUST-1043,Home & Garden,Garden Hose,4,148.0,592.0,Debit Card,West
+TXN-00810,2024-03-12,CUST-2928,Home & Garden,LED Bulb Pack,5,34.65,173.25,Bank Transfer,South
+TXN-00811,2024-02-09,CUST-3750,Electronics,Bluetooth Speaker,2,68.92,137.84,Debit Card,West
+TXN-00812,2024-12-22,CUST-1195,Sports,Dumbbell Set,1,120.23,120.23,Credit Card,North
+TXN-00813,2024-01-25,CUST-4163,Books,Data Engineering Guide,2,63.99,-127.98,Credit Card,North
+TXN-00814,2024-06-21,CUST-4360,Clothing,Cotton T-Shirt,1,240.08,240.08,Debit Card,South
+TXN-00815,2024-01-23,CUST-2702,sports,Water Bottle,2,189.27,378.54,Bank Transfer,West
+TXN-00816,2024-03-02,CUST-1951,clothing,Denim Jeans,,197.92,197.92,Credit Card,West
+TXN-00817,2024-04-18,CUST-2879,clothing,Wool Socks,1,24.86,24.86,PayPal,West
+TXN-00818,2024-02-22,CUST-3918,Sports,Tennis Balls,3,287.91,863.73,Bank Transfer,South
+TXN-00819,2024-06-19,CUST-1718,Home & Garden,Door Mat,3,10.21,30.63,Bank Transfer,West
+TXN-00820,2024-09-18,CUST-3623,Clothing,Wool Socks,2,11.26,22.52,Credit Card,East
+TXN-00821,2024-05-01,CUST-4022,Books,Clean Code,2,115.48,230.96,Debit Card,West
+TXN-00822,2024-04-14,CUST-3629,Electronics,Power Bank,3,44.61,133.83,Credit Card,West
+TXN-00823,2024-11-27,CUST-4328,Home & Garden,LED Bulb Pack,3,106.1,318.3,Credit Card,South
+TXN-00824,2024-12-17,CUST-3851,Clothing,Winter Jacket,2,135.49,-270.98,Bank Transfer,North
+TXN-00825,2024-04-08,CUST-1213,Clothing,Denim Jeans,5,166.9,834.5,Debit Card,South
+TXN-00826,2024-09-16,CUST-1320,Books,SQL Fundamentals,2,77.25,154.5,Debit Card,East
+TXN-00827,2024-05-26,CUST-3361,Books,Data Engineering Guide,4,28.6,114.4,Bank Transfer,West
+TXN-00828,2024-03-26,CUST-2928,Books,Clean Code,2,246.77,493.54,Credit Card,West
+TXN-00829,2024-08-06,CUST-4498,Electronics,Webcam,2,168.09,336.18,Bank Transfer,West
+TXN-00830,2024-06-05,CUST-2857,Home & Garden,Candle Set,3,45.31,135.93,Debit Card,South
+TXN-00831,2024-01-03,CUST-1052,Sports,Water Bottle,4,282.37,1129.48,PayPal,West
+TXN-00832,2024-09-07,CUST-2260,Sports,Yoga Mat,5,52.9,264.5,PayPal,East
+TXN-00833,2024-09-17,CUST-3904,Books,SQL Fundamentals,4,278.31,1113.24,Debit Card,West
+TXN-00834,2024-01-18,CUST-4774,Home & Garden,Door Mat,,201.37,201.37,Debit Card,East
+TXN-00835,2024-11-05,CUST-2865,Clothing,Baseball Cap,2,8.64,17.28,Bank Transfer,West
+TXN-00836,2024-12-27,CUST-3400,Electronics,Laptop Stand,2,249.77,499.54,PayPal,West
+TXN-00837,2024-10-27,CUST-2261,Books,Design Patterns,1,192.67,192.67,PayPal,South
+TXN-00838,2024-05-17,CUST-4066,Clothing,Winter Jacket,1,296.16,296.16,Credit Card,North
+TXN-00839,2024-02-05,CUST-4169,Books,Design Patterns,4,55.34,221.36,Debit Card,South
+TXN-00840,2024-09-06,CUST-1745,Sports,Jump Rope,2,59.76,119.52,Debit Card,South
+TXN-00841,2024-05-12,CUST-4695,Books,Clean Code,2,28.54,57.08,Credit Card,East
+TXN-00842,2024-02-02,CUST-2401,Electronics,Power Bank,1,7.8,7.8,Credit Card,North
+TXN-00843,2024-02-19,CUST-1864,Sports,Jump Rope,3,279.97,839.91,PayPal,West
+TXN-00844,2024-06-21,CUST-2518,Home & Garden,Wall Clock,3,201.19,603.57,Credit Card,East
+TXN-00845,2024-06-18,CUST-4302,ELECTRONICS,Monitor Cable,2,12.58,25.16,PayPal,South
+TXN-00846,2024-07-07,CUST-2851,Sports,Tennis Balls,4,199.76,-799.04,PayPal,North
+TXN-00847,2024-11-20,CUST-2475,Electronics,Keyboard,2,183.99,367.98,Credit Card,East
+TXN-00848,2024-08-07,CUST-4846,Books,Design Patterns,4,91.69,366.76,Debit Card,North
+TXN-00849,2024-03-06,CUST-3039,Electronics,Power Bank,4,286.73,1146.92,Debit Card,South
+TXN-00850,2024-04-18,CUST-1698,ELECTRONICS,Wireless Mouse,3,271.27,813.81,Debit Card,East
+TXN-00851,2024-12-06,CUST-2950,Electronics,Power Bank,3,262.21,786.63,Credit Card,East
+TXN-00852,2024-07-12,CUST-4728,Books,Clean Code,4,243.48,973.92,Credit Card,East
+TXN-00853,2024-02-14,CUST-1456,Electronics,Laptop Stand,1,173.98,173.98,PayPal,West
+TXN-00854,2024-10-22,CUST-4018,Electronics,Laptop Stand,4,99.29,397.16,Debit Card,South
+TXN-00855,2024-02-24,CUST-2619,Electronics,Power Bank,3,251.97,755.91,Bank Transfer,South
+TXN-00856,2024-11-03,CUST-2160,Clothing,Silk Scarf,1,181.66,181.66,Credit Card,East
+TXN-00857,2024-12-27,CUST-3350,Books,Data Engineering Guide,4,22.35,89.4,Debit Card,South
+TXN-00858,2024-04-25,CUST-3868,Electronics,Bluetooth Speaker,4,93.23,372.92,Debit Card,North
+TXN-00859,2024-10-07,CUST-2606,Home & Garden,Throw Pillow,4,120.36,481.44,PayPal,East
+TXN-00860,2024-12-22,CUST-4780,Clothing,Baseball Cap,2,100.41,200.82,Credit Card,East
+TXN-00861,2024-08-22,CUST-3681,Clothing,Winter Jacket,3,269.67,809.01,Debit Card,North
+TXN-00862,2024-07-04,CUST-3973,Sports,Jump Rope,4,205.43,821.72,Credit Card,North
+TXN-00863,2024-07-01,CUST-4990,Books,Python Cookbook,5,196.77,983.85,Debit Card,West
+TXN-00864,2024-05-05,CUST-1139,Electronics,Power Bank,5,286.58,1432.9,Bank Transfer,North
+TXN-00865,2024-08-25,CUST-4542,Books,Design Patterns,1,40.4,40.4,Bank Transfer,South
+TXN-00866,2024-01-12,CUST-3403,Sports,Jump Rope,1,239.32,239.32,Bank Transfer,West
+TXN-00867,2024-06-01,CUST-3340,Clothing,Wool Socks,5,59.54,297.7,Credit Card,West
+TXN-00868,2024-10-11,CUST-4348,Sports,Foam Roller,5,251.95,1259.75,Credit Card,South
+TXN-00869,2024-12-03,CUST-4676,Electronics,Bluetooth Speaker,,136.93,136.93,PayPal,North
+TXN-00870,2024-01-21,CUST-1527,Sports,Resistance Bands,3,256.17,768.51,Credit Card,East
+TXN-00871,2024-07-05,CUST-4957,Sports,Dumbbell Set,,93.67,93.67,PayPal,West
+TXN-00872,2024-03-12,CUST-3363,Books,Clean Code,3,183.81,551.43,Credit Card,North
+TXN-00873,2024-05-01,CUST-1150,Clothing,Denim Jeans,2,179.57,359.14,Bank Transfer,North
+TXN-00874,2024-10-08,CUST-2044,Home & Garden,LED Bulb Pack,1,283.69,283.69,Debit Card,South
+TXN-00875,2024-02-06,CUST-3578,Home & Garden,Door Mat,3,171.27,513.81,Debit Card,West
+TXN-00876,2024-03-19,CUST-2295,Books,Clean Code,3,41.76,125.28,Bank Transfer,North
+TXN-00877,2024-06-17,CUST-3622,Electronics,Keyboard,2,261.3,522.6,Credit Card,North
+TXN-00878,2024-07-12,CUST-4968,Clothing,Cotton T-Shirt,1,56.84,56.84,PayPal,West
+TXN-00879,2024-02-18,CUST-3166,Home & Garden,Wall Clock,3,184.2,552.6,Debit Card,East
+TXN-00880,2024-07-18,CUST-1740,Home & Garden,Door Mat,5,167.74,838.7,Bank Transfer,West
+TXN-00881,2024-10-30,CUST-1522,Home & garden,Door Mat,2,47.09,94.18,PayPal,North
+TXN-00882,2024-11-23,CUST-4991,Home & Garden,LED Bulb Pack,4,213.5,854.0,PayPal,West
+TXN-00883,2024-09-14,CUST-2174,Home & Garden,Candle Set,2,95.03,190.06,PayPal,West
+TXN-00884,2024-06-09,CUST-4462,Electronics,USB-C Hub,1,53.71,53.71,PayPal,West
+TXN-00885,2024-01-06,CUST-4941,Books,Design Patterns,4,156.92,627.68,Credit Card,West
+TXN-00886,2024-01-08,CUST-3524,Clothing,Wool Socks,,130.36,130.36,PayPal,South
+TXN-00887,2024-12-04,CUST-4894,Sports,Yoga Mat,2,203.98,407.96,Debit Card,South
+TXN-00888,2024-02-08,CUST-2503,Clothing,Cotton T-Shirt,4,55.29,221.16,PayPal,South
+TXN-00889,2024-10-03,CUST-4484,Electronics,Power Bank,2,5.66,11.32,Bank Transfer,South
+TXN-00890,2024-06-05,CUST-4805,Sports,Yoga Mat,5,255.26,1276.3,Credit Card,West
+TXN-00891,2024-06-17,CUST-2222,home & garden,Door Mat,3,7.61,22.83,Debit Card,North
+TXN-00892,2024-09-27,CUST-3106,Clothing,Winter Jacket,,231.98,231.98,PayPal,South
+TXN-00893,2024-08-28,CUST-2619,Home & Garden,Throw Pillow,5,244.4,1222.0,Bank Transfer,West
+TXN-00894,2024-03-23,CUST-1572,Home & Garden,Plant Pot,2,37.65,75.3,Debit Card,West
+TXN-00895,2024-08-03,CUST-4047,Home & Garden,LED Bulb Pack,4,288.1,1152.4,Credit Card,West
+TXN-00896,2024-09-07,CUST-3253,Books,Design Patterns,4,153.04,612.16,Bank Transfer,South
+TXN-00897,2024-02-26,CUST-4922,Electronics,Bluetooth Speaker,5,9.03,45.15,Credit Card,East
+TXN-00898,2024-08-07,CUST-4999,Sports,Jump Rope,3,148.34,445.02,Debit Card,South
+TXN-00899,2024-09-18,CUST-1765,Clothing,Cotton T-Shirt,2,201.56,403.12,Bank Transfer,North
+TXN-00900,2024-12-24,CUST-3991,Sports,Resistance Bands,5,190.52,952.6,Credit Card,South
+TXN-00901,2024-07-24,CUST-1157,Home & Garden,LED Bulb Pack,5,63.89,319.45,Bank Transfer,West
+TXN-00902,2024-09-25,CUST-2255,Clothing,Winter Jacket,5,130.98,654.9,Credit Card,East
+TXN-00903,2024-07-05,CUST-2149,Home & Garden,LED Bulb Pack,1,58.61,-58.61,PayPal,South
+TXN-00904,2024-05-26,CUST-2933,Home & Garden,Plant Pot,3,284.75,854.25,PayPal,North
+TXN-00905,2024-02-19,CUST-3740,Electronics,Bluetooth Speaker,3,224.16,672.48,PayPal,South
+TXN-00906,2024-11-28,CUST-2130,Clothing,Cotton T-Shirt,2,190.71,381.42,Credit Card,South
+TXN-00907,2024-04-08,CUST-3886,Books,Python Cookbook,5,106.15,530.75,Debit Card,South
+TXN-00908,2024-01-23,CUST-1523,Clothing,Wool Socks,5,292.65,1463.25,Bank Transfer,North
+TXN-00909,2024-08-11,CUST-1277,Books,Clean Code,2,181.74,363.48,Debit Card,East
+TXN-00910,2024-01-24,CUST-4914,SPORTS,Resistance Bands,4,151.03,604.12,Credit Card,South
+TXN-00911,2024-08-12,CUST-4074,Sports,Tennis Balls,5,85.09,425.45,Debit Card,South
+TXN-00912,2024-10-30,CUST-3853,Electronics,Power Bank,5,81.35,406.75,PayPal,East
+TXN-00913,2024-10-09,CUST-1487,Clothing,Baseball Cap,1,193.68,193.68,PayPal,South
+TXN-00914,2024-05-18,CUST-4577,Electronics,Laptop Stand,2,162.7,-325.4,PayPal,East
+TXN-00915,2024-06-15,CUST-1340,Sports,Resistance Bands,5,91.99,459.95,Credit Card,East
+TXN-00916,2024-04-22,CUST-3992,Home & Garden,Plant Pot,5,36.4,182.0,Bank Transfer,East
+TXN-00917,2024-11-16,CUST-3598,Sports,Tennis Balls,3,84.29,252.87,Bank Transfer,South
+TXN-00918,2024-08-16,CUST-1949,Books,Machine Learning Intro,2,140.52,281.04,Debit Card,South
+TXN-00919,2024-10-18,CUST-3009,Clothing,Cotton T-Shirt,2,246.15,492.3,Debit Card,North
+TXN-00920,2024-03-14,CUST-1295,Books,Design Patterns,1,218.66,218.66,Credit Card,North
+TXN-00921,2024-07-12,CUST-2572,Electronics,Wireless Mouse,1,83.96,83.96,Credit Card,North
+TXN-00922,2024-02-24,CUST-3221,Home & Garden,Plant Pot,4,229.1,916.4,Debit Card,East
+TXN-00923,2024-06-18,CUST-2961,Clothing,Baseball Cap,5,41.31,206.55,Credit Card,East
+TXN-00924,2024-02-22,CUST-3095,Books,Python Cookbook,4,48.47,193.88,Debit Card,West
+TXN-00925,2024-12-17,CUST-4621,Electronics,USB-C Hub,3,110.4,331.2,Credit Card,East
+TXN-00926,2024-02-13,CUST-4668,Electronics,Bluetooth Speaker,3,181.88,545.64,Debit Card,East
+TXN-00927,2024-11-15,CUST-4348,Home & Garden,Plant Pot,4,200.2,800.8,Credit Card,North
+TXN-00928,2024-03-17,CUST-4185,Clothing,Winter Jacket,4,245.31,981.24,Bank Transfer,East
+TXN-00929,2024-03-15,CUST-1370,Home & Garden,LED Bulb Pack,3,99.19,297.57,Bank Transfer,East
+TXN-00930,2024-03-11,CUST-4285,Clothing,Baseball Cap,5,150.31,751.55,Debit Card,West
+TXN-00931,2024-02-12,CUST-3379,Books,Design Patterns,2,212.41,424.82,Credit Card,South
+TXN-00932,2024-01-09,CUST-2484,Sports,Resistance Bands,1,273.84,273.84,Debit Card,East
+TXN-00933,2024-08-23,CUST-1590,Sports,Jump Rope,2,21.48,42.96,Debit Card,West
+TXN-00934,2024-01-14,CUST-3851,Books,Design Patterns,5,26.76,133.8,Debit Card,North
+TXN-00935,2024-03-16,CUST-2496,Clothing,Cotton T-Shirt,4,49.17,196.68,Debit Card,East
+TXN-00936,2024-08-28,CUST-2685,Home & Garden,Door Mat,3,37.82,113.46,Credit Card,South
+TXN-00937,2024-09-14,CUST-1656,Electronics,Monitor Cable,4,168.47,673.88,PayPal,South
+TXN-00938,2024-08-04,CUST-4815,Clothing,Cotton T-Shirt,2,224.22,448.44,Credit Card,South
+TXN-00939,2024-07-19,CUST-1752,Sports,Yoga Mat,4,145.83,583.32,Bank Transfer,West
+TXN-00940,2024-03-25,CUST-1223,Home & Garden,LED Bulb Pack,1,27.95,27.95,PayPal,North
+TXN-00941,2024-05-02,CUST-2155,Clothing,Cotton T-Shirt,1,228.17,228.17,Debit Card,North
+TXN-00942,2024-05-03,CUST-2102,Electronics,Wireless Mouse,4,18.48,73.92,PayPal,North
+TXN-00943,2024-07-01,CUST-4078,Home & Garden,Candle Set,4,219.07,876.28,Credit Card,East
+TXN-00944,2024-07-27,CUST-4672,Sports,Yoga Mat,4,145.7,582.8,Credit Card,East
+TXN-00945,2024-03-23,CUST-1620,BOOKS,Python Cookbook,2,265.89,531.78,Debit Card,South
+TXN-00946,2024-09-13,CUST-3114,Sports,Tennis Balls,2,105.01,210.02,Bank Transfer,North
+TXN-00947,2024-12-30,CUST-4171,Books,Clean Code,2,172.23,344.46,Credit Card,North
+TXN-00948,2024-03-14,CUST-4138,Home & Garden,Wall Clock,1,152.17,152.17,Debit Card,East
+TXN-00949,2024-03-23,CUST-1279,Home & Garden,Garden Hose,2,214.64,429.28,Bank Transfer,East
+TXN-00950,2024-08-14,CUST-3663,Clothing,Baseball Cap,3,258.4,775.2,Debit Card,West
+TXN-00951,2024-07-06,CUST-3099,Sports,Water Bottle,4,154.25,617.0,Credit Card,North
+TXN-00952,2024-05-05,CUST-3866,Sports,Water Bottle,5,122.78,613.9,Bank Transfer,West
+TXN-00953,2024-12-08,CUST-1382,Home & Garden,Door Mat,4,37.19,148.76,Credit Card,West
+TXN-00954,2024-08-09,CUST-1817,Books,SQL Fundamentals,5,148.45,742.25,Bank Transfer,North
+TXN-00955,2024-05-22,CUST-2861,Electronics,Power Bank,2,99.45,198.9,Bank Transfer,North
+TXN-00956,2024-07-04,CUST-4234,Books,Data Engineering Guide,1,286.02,286.02,PayPal,East
+TXN-00957,2024-11-21,CUST-1721,electronics,Monitor Cable,4,262.02,1048.08,PayPal,South
+TXN-00958,2024-01-28,CUST-1378,Books,SQL Fundamentals,3,282.86,848.58,Debit Card,West
+TXN-00959,2024-06-30,CUST-4738,Sports,Yoga Mat,5,63.57,317.85,Debit Card,East
+TXN-00960,2024-12-06,CUST-4373,home & garden,LED Bulb Pack,3,38.51,115.53,Bank Transfer,East
+TXN-00961,2024-09-23,CUST-3958,Electronics,Bluetooth Speaker,5,33.75,168.75,Debit Card,West
+TXN-00962,2024-12-22,CUST-3236,Clothing,Denim Jeans,2,291.65,583.3,Credit Card,East
+TXN-00963,2024-07-05,CUST-1066,Home & Garden,Candle Set,1,211.29,211.29,Bank Transfer,West
+TXN-00964,2024-07-29,CUST-2440,Home & Garden,Throw Pillow,3,38.45,115.35,Bank Transfer,East
+TXN-00965,2024-03-31,CUST-3264,Sports,Jump Rope,4,192.06,768.24,Credit Card,North
+TXN-00966,2024-02-23,CUST-1367,Electronics,Monitor Cable,5,278.52,1392.6,Bank Transfer,North
+TXN-00967,2024-12-07,CUST-2187,Books,Machine Learning Intro,1,62.69,62.69,Credit Card,East
+TXN-00968,2024-08-25,CUST-2691,books,Data Engineering Guide,3,264.48,793.44,Bank Transfer,South
+TXN-00969,2024-01-03,CUST-4687,Books,Data Engineering Guide,5,246.9,1234.5,PayPal,South
+TXN-00970,2024-10-19,CUST-2761,Clothing,Winter Jacket,4,249.41,997.64,Bank Transfer,South
+TXN-00971,2024-11-21,CUST-2599,Clothing,Running Shoes,4,73.13,292.52,Debit Card,North
+TXN-00972,2024-11-19,CUST-3363,Books,Design Patterns,5,51.92,259.6,Credit Card,North
+TXN-00973,2024-01-14,CUST-2791,Electronics,Bluetooth Speaker,,213.73,213.73,Credit Card,West
+TXN-00974,2024-01-13,CUST-4040,Clothing,Wool Socks,3,60.03,180.09,Debit Card,East
+TXN-00975,2024-04-09,CUST-3193,Clothing,Silk Scarf,3,199.47,598.41,Debit Card,North
+TXN-00976,2024-11-22,CUST-3373,ELECTRONICS,USB-C Hub,3,82.29,246.87,Credit Card,West
+TXN-00977,2024-07-04,CUST-4738,Clothing,Winter Jacket,4,26.7,106.8,Credit Card,South
+TXN-00978,2024-12-17,CUST-2719,Books,Design Patterns,2,58.04,-116.08,Debit Card,North
+TXN-00979,2024-03-01,CUST-4997,Home & Garden,Throw Pillow,5,166.21,831.05,PayPal,North
+TXN-00980,2024-04-08,CUST-3482,Electronics,Bluetooth Speaker,3,38.86,116.58,PayPal,South
+TXN-00981,2024-04-22,CUST-1341,Clothing,Winter Jacket,1,107.82,107.82,PayPal,West
+TXN-00982,2024-09-10,CUST-2786,Sports,Resistance Bands,2,207.68,415.36,PayPal,West
+TXN-00983,2024-02-22,CUST-3390,Sports,Tennis Balls,4,132.87,531.48,PayPal,East
+TXN-00984,2024-11-14,CUST-1440,Sports,Resistance Bands,3,269.87,809.61,Bank Transfer,South
+TXN-00985,2024-01-18,CUST-4924,Sports,Jump Rope,5,108.91,544.55,Debit Card,East
+TXN-00986,2024-08-07,CUST-4239,Clothing,Cotton T-Shirt,3,114.73,344.19,Credit Card,North
+TXN-00987,2024-06-12,CUST-3819,Electronics,Laptop Stand,3,270.12,810.36,Bank Transfer,East
+TXN-00988,2024-11-04,CUST-1869,Sports,Foam Roller,5,284.14,1420.7,Credit Card,West
+TXN-00989,2024-12-15,CUST-4097,Books,SQL Fundamentals,1,241.8,241.8,PayPal,West
+TXN-00990,2024-03-02,CUST-1508,Books,SQL Fundamentals,2,175.04,350.08,Credit Card,West
+TXN-00991,2024-05-25,CUST-1536,BOOKS,Clean Code,1,25.49,25.49,Bank Transfer,East
+TXN-00992,2024-05-20,CUST-2299,Home & Garden,Candle Set,4,185.63,742.52,Bank Transfer,West
+TXN-00993,2024-11-24,CUST-4961,Electronics,USB-C Hub,,19.11,19.11,Credit Card,South
+TXN-00994,2024-02-23,CUST-2322,Books,Python Cookbook,3,245.76,737.28,Credit Card,North
+TXN-00995,2024-05-12,CUST-4618,electronics,USB-C Hub,5,238.52,1192.6,Debit Card,South
+TXN-00996,2024-10-25,CUST-2887,Electronics,Monitor Cable,1,158.92,158.92,Bank Transfer,West
+TXN-00997,2024-05-23,CUST-2318,Books,SQL Fundamentals,1,109.13,109.13,Debit Card,South
+TXN-00998,2024-12-21,CUST-1319,Electronics,Wireless Mouse,2,143.1,286.2,Bank Transfer,North
+TXN-00999,2024-06-23,CUST-1854,Sports,Foam Roller,3,214.0,642.0,Credit Card,South
+TXN-01000,2024-04-22,CUST-4754,Home & Garden,Throw Pillow,5,64.89,324.45,Credit Card,East

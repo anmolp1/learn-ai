@@ -54,14 +54,14 @@ Patterns specific to DE:
 
 3. **Code review prompting**
    ```
-   You are a senior data engineer reviewing this dbt model.
+   You are a senior data engineer reviewing this Python transformation.
    Check for:
-   - Performance issues (full table scans, missing partitioning)
+   - Performance issues (unnecessary loops, memory usage, missing vectorization)
    - Data quality risks (NULLs, duplicates, type mismatches)
    - Best practice violations
-   - Missing tests
+   - Missing error handling and edge cases
 
-   [paste dbt model]
+   [paste Python transformation code]
    ```
 
 4. **Debug with context**
@@ -81,7 +81,7 @@ Patterns specific to DE:
 Show real prompts, real responses, real iterations. Show when Claude gets something wrong and how to fix it.
 
 ### Practice (25 min)
-- Participants pick a data engineering task from their work
+- Pick a scenario from [Practice Scenarios](practice-scenarios.md) or use a task from your own work
 - Write prompts using the patterns above
 - Run in Claude, share results with a partner
 - Iterate at least once
@@ -109,7 +109,7 @@ Share in community with `#de-session1`.
 
 ## Resources
 - [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
-- [dbt Best Practices](https://docs.getdbt.com/best-practices)
+- [dbt Further Learning](../../resources/dbt-further-learning.md) (optional, not required for this track)
 - [Terraform GCP Provider Docs](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
 - [BigQuery SQL Reference](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax)
 

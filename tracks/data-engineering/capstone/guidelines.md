@@ -43,7 +43,7 @@ my-capstone/
 ├── README.md                 # What, why, setup, run, test, monitor
 ├── src/
 │   ├── ingestion/           # Data extraction scripts
-│   ├── transformation/      # Transform logic (Python/dbt)
+│   ├── transformation/      # Transform logic (Python)
 │   └── monitoring/          # Quality checks, alerting
 ├── infrastructure/
 │   ├── main.tf
@@ -72,3 +72,5 @@ my-capstone/
 | Infrastructure | 15% | Terraform deploys cleanly, follows security best practices |
 | Testing + quality | 15% | Tests exist, pass, and cover meaningful cases |
 | Documentation | 15% | Someone else could clone, deploy, and operate this pipeline |
+
+> **Note:** The rubric rewards your learning journey, not just completeness. A thoughtful Tier 2 or Tier 3 presentation (see [Session 6](curriculum/session-06-ship-it/)) that shows genuine learning will score well.
