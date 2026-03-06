@@ -44,7 +44,7 @@ Ship real applications using AI as your development partner. For developers who 
 
 ### As a Participant
 1. **Pick your track** — [Data Engineering](tracks/data-engineering/) or [Builder](tracks/builder/)
-2. **Create your project repo** — Use the [learn-ai-starter](https://github.com/YOUR_USERNAME/learn-ai-starter) template
+2. **Create your project repo** — Use the [learn-ai-starter](https://github.com/anmolp1/learn-ai-starter) template
 3. Start with Session 0 (pre-work) in your track
 4. Work through sessions in order, building your capstone as you go
 5. Present at the final session
