@@ -43,8 +43,22 @@
 - Terminal/shell access
 - `pip install dbt-bigquery` (optional — for experienced users only, not required for this track. See [dbt Further Learning](../../resources/dbt-further-learning.md))
 
+### Quick Setup (Optional)
+
+If you prefer a one-command setup, run this from your capstone repo:
+```bash
+bash setup.sh
+```
+It creates a virtualenv, installs dependencies, prompts for your env vars, and runs the preflight check. See [setup.sh](../../setup.sh).
+
 ### Verify Everything Works
-Run through this checklist:
+
+Run the preflight check to verify your setup automatically:
+```bash
+bash ../../resources/session0-preflight.sh
+```
+
+Or check manually:
 - [ ] `python --version` returns 3.9+
 - [ ] `terraform --version` returns a version
 - [ ] `gcloud auth login` succeeds (install gcloud CLI if needed)
