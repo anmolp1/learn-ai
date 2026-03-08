@@ -21,9 +21,9 @@ Build a complete, AI-assisted data pipeline that ingests, transforms, deploys, a
 | Session | Milestone |
 |---------|-----------|
 | 0 | Choose project, set up repo, verify data source access |
-| 1 | Define pipeline scope, map AI integration points, write initial prompts |
-| 2 | Build ingestion + transformation layers |
-| 3 | Deploy infrastructure with Terraform |
+| 1 | Define pipeline scope, map transformations, draft prompts for pipeline components |
+| 2 | Build ingestion + transformation steps with tests |
+| 3 | Deploy BigQuery + Cloud Storage + IAM via Terraform |
 | 4 | Add monitoring agent with AI-powered quality checks |
 | 5 | Production readiness audit + fixes |
 | 6 | Present |
@@ -59,9 +59,9 @@ Build a pipeline that ingests real-time earthquake data, enriches it with geogra
 | Session | Milestone |
 |---------|-----------|
 | 0 | Set up repo, verify USGS API access, explore GeoJSON feed structure |
-| 1 | Define schema, map transformation steps, generate initial ingestion code with AI |
-| 2 | Build ingestion (scheduled poll) + all 3 transformation steps with tests |
-| 3 | Deploy Cloud Function + BigQuery + Cloud Storage via Terraform |
+| 1 | Define schema, map transformation steps, draft prompts for pipeline components |
+| 2 | Build ingestion (scheduled poll) + transformation steps with tests |
+| 3 | Deploy BigQuery + Cloud Storage + IAM via Terraform |
 | 4 | Add monitoring agent: magnitude alerts, frequency anomaly detection, data freshness checks |
 | 5 | Security audit, error handling, CI/CD, complete documentation |
 | 6 | Present |
@@ -86,20 +86,20 @@ Build a pipeline that ingests NYC 311 service request data, classifies and aggre
 | Monitor | Alert on complaint volume spikes in any category; track data completeness (null rates for key fields) |
 
 **AI integration points:**
+- Schema design: prompt AI to propose a normalized schema from the raw 40+ field SODA response
 - AI-assisted complaint category mapping (group 200+ raw types into meaningful categories)
-- Generate SoQL queries for efficient API pagination
 - Anomaly detection: "Given complaint volumes by borough this week vs. last month, flag anomalies"
 - AI-generated data quality rules (expected null rates, valid value ranges per field)
-- Documentation generation for the complaint taxonomy
+- Test generation: create unit tests for edge cases in category mapping (new complaint types, null descriptors, malformed dates)
 
 **Session milestones:**
 
 | Session | Milestone |
 |---------|-----------|
 | 0 | Set up repo, register for NYC Open Data app token, explore dataset schema |
-| 1 | Define complaint taxonomy, map transformations, generate ingestion code with AI |
-| 2 | Build ingestion (paginated API calls) + all 3 transformation steps with tests |
-| 3 | Deploy Cloud Function + BigQuery + Cloud Storage via Terraform |
+| 1 | Define complaint taxonomy, map transformations, draft prompts for pipeline components |
+| 2 | Build ingestion (paginated API calls) + transformation steps with tests |
+| 3 | Deploy BigQuery + Cloud Storage + IAM via Terraform |
 | 4 | Add monitoring agent: volume spike detection, data completeness checks, resolution time alerts |
 | 5 | Security audit, error handling, CI/CD, complete documentation |
 | 6 | Present |
@@ -135,9 +135,9 @@ Build a pipeline that ingests event activity from popular GitHub repositories, c
 | Session | Milestone |
 |---------|-----------|
 | 0 | Set up repo, create GitHub personal access token, select target repositories |
-| 1 | Map event types to categories, define metrics, generate ingestion code with AI |
-| 2 | Build ingestion (multi-repo polling) + all 3 transformation steps with tests |
-| 3 | Deploy Cloud Function + BigQuery + Cloud Storage via Terraform |
+| 1 | Map event types to categories, define metrics, draft prompts for pipeline components |
+| 2 | Build ingestion (multi-repo polling) + transformation steps with tests |
+| 3 | Deploy BigQuery + Cloud Storage + IAM via Terraform |
 | 4 | Add monitoring agent: activity anomaly detection, bot detection, data freshness checks |
 | 5 | Security audit, error handling, CI/CD, complete documentation |
 | 6 | Present |
@@ -162,8 +162,8 @@ Build a pipeline that ingests weather forecast and historical data, computes agg
 | Monitor | Alert on extreme weather events; track data source availability; flag degrading forecast accuracy |
 
 **AI integration points:**
-- AI-assisted location selection (prompt: "Suggest 15 cities across climate zones for meaningful weather comparison")
-- Generate aggregation logic for 60+ weather variables
+- Schema design: prompt AI to select and structure the most meaningful variables from Open-Meteo's 60+ available fields
+- Generate forecast-vs-actual comparison logic (MAE, bias calculations across locations and lead times)
 - Anomaly detection: "Given 30 days of temperature data for these cities, which readings are statistical outliers?"
 - AI-generated test cases for edge cases (missing data points, timezone boundaries, leap years)
 - Monitoring prompt: "Design alert thresholds for extreme weather that minimize false positives"
@@ -173,9 +173,9 @@ Build a pipeline that ingests weather forecast and historical data, computes agg
 | Session | Milestone |
 |---------|-----------|
 | 0 | Set up repo, verify Open-Meteo API access, select target cities |
-| 1 | Define weather metrics, map transformations, generate ingestion code with AI |
-| 2 | Build ingestion (multi-city fetch) + all 3 transformation steps with tests |
-| 3 | Deploy Cloud Function + BigQuery + Cloud Storage via Terraform |
+| 1 | Define weather metrics, map transformations, draft prompts for pipeline components |
+| 2 | Build ingestion (multi-city fetch) + transformation steps with tests |
+| 3 | Deploy BigQuery + Cloud Storage + IAM via Terraform |
 | 4 | Add monitoring agent: extreme weather alerts, forecast accuracy tracking, data freshness checks |
 | 5 | Security audit, error handling, CI/CD, complete documentation |
 | 6 | Present |
