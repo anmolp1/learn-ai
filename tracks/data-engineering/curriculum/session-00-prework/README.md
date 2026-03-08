@@ -122,7 +122,7 @@ You'll build a real data pipeline over the next 6 sessions. Pick a project now â
 
 ### Choose Your Capstone Project
 
-Pick one of these four vetted projects. Each uses a free, stable data source and fits within GCP free tier. See the [capstone guidelines](../capstone/guidelines.md) for full details on each project.
+Pick one of these four vetted projects. Each uses a free, stable data source and fits within GCP free tier. See the [capstone guidelines](../../capstone/guidelines.md) for full details on each project.
 
 | Option | Data Source | What You'll Build |
 |--------|-----------|-------------------|

@@ -10,10 +10,12 @@ These are an **express lane, not a backup plan**. Every participant's capstone s
 **Source:** [`examples/starter-pipeline/`](../examples/starter-pipeline/)
 
 What's included:
-- Working Python ingestion script (OpenWeather API + sample data fallback)
+- Working Python ingestion script (uses OpenWeather API as a teaching example + sample data fallback)
 - Three transformation functions with pandas
 - Basic pytest tests
 - `run_pipeline.py` orchestrator
+
+> **Note:** The starter pipeline uses OpenWeather as its example data source. Your capstone will use one of the [four approved project APIs](data-sources.md) — adapt the ingestion patterns from the starter to your chosen source.
 
 How to use:
 1. Copy the `starter-pipeline/` directory into your capstone repo
