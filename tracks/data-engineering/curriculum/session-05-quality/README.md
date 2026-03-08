@@ -113,7 +113,7 @@ Make your capstone production-ready:
 - [ ] Terraform uses least-privilege IAM (no roles/owner or roles/editor)
 - [ ] Retry logic with backoff on transient failures
 - [ ] Pipeline is idempotent (safe to re-run)
-- [ ] Monitoring/alerting for pipeline failures
+- [ ] Monitoring/alerting for pipeline failures (see [starter-agent](../../examples/starter-agent/) for an agent-based approach)
 - [ ] CI/CD: GitHub Actions run tests on push
 - [ ] Meaningful logging at key pipeline stages
 

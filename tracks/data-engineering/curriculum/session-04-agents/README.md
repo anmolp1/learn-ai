@@ -1,102 +1,110 @@
-# Session 4: Agents — Monitoring, Alerts, and Automation
+# Session 4: Agents — Tool Use, Agentic Loops, and MCP
 
 **Format:** 90 min live + async challenge
-**Goal:** Build AI-powered monitoring and automation for your data pipeline
+**Goal:** Build a monitoring agent that uses Claude's tool-use API to autonomously check data quality
 
 ## Session Plan
 
-### Concept (15 min): From Pipelines to Self-Healing Systems
+### Concept (15 min): Scripts vs Agents
 
-Most data pipelines break silently. Data arrives late, schemas drift, quality degrades — and nobody notices until a stakeholder complains. This session is about using AI agents to close that gap.
+Most data pipelines break silently. Data arrives late, schemas drift, quality degrades — and nobody notices until a stakeholder complains. This session is about building agents that detect and respond to these problems.
 
 The progression:
 1. **Manual monitoring** — You check dashboards, run queries, hope nothing's broken
 2. **Rule-based alerts** — Thresholds trigger notifications (row count < X, latency > Y)
-3. **AI-powered monitoring** — AI detects anomalies, classifies issues, suggests root causes
-4. **Agentic automation** — AI detects the issue AND takes corrective action (with human approval)
+3. **AI-powered monitoring** — AI classifies issues and suggests root causes (what we built in `starter-monitor/`)
+4. **Agentic automation** — AI decides which checks to run, analyzes results, and takes action in a loop (what we build today)
 
-Today we go from 1/2 to 3/4.
+**The key difference:** A script calls Claude once and you decide what to do. An agent gives Claude tools and lets it decide what to do — calling tools, reading results, calling more tools — until it has enough information to act.
 
-### Demo (35 min): Build a Pipeline Monitor
+**MCP (2-3 min):** Model Context Protocol is an open standard for connecting AI to external data sources. Instead of writing Python wrapper functions for every database and API, you configure an MCP server and Claude can query BigQuery, SQLite, or Airflow directly. We won't build with MCP today, but the [MCP Setup Guide](../../resources/mcp-setup-guide.md) is there for async exploration. The tool-use pattern you learn today is the same pattern MCP uses under the hood.
 
-**Build a monitoring agent live.** Components:
+**Framework landscape (1 min):** LangGraph, CrewAI, and the OpenAI Agents SDK all implement similar patterns. We use the Anthropic SDK because you already have API keys and the agentic loop is ~30 lines of Python — no new packages. The concepts (tool definitions, agentic loops, human-in-the-loop) transfer to any framework.
 
-**Step 1 — Data Quality Checks (10 min)**
-Use Claude to generate a Python module that runs quality checks:
-- Row count validation (expected vs. actual, with tolerance)
-- Schema drift detection (new columns, type changes, missing fields)
-- Value distribution checks (nulls, outliers, unexpected categories)
-- Freshness checks (is the data current?)
+### Demo (35 min): Build a Monitoring Agent
 
+**Step 1 — Define Tools (10 min)**
+
+Walk through [`starter-agent/tools.py`](../../examples/starter-agent/tools.py):
+- Tool functions: `check_row_count`, `check_null_percentage`, `check_freshness`, `check_schema_drift`
+- Action tools: `send_alert`, `apply_fix` (with `dry_run=True` default)
+- `TOOL_DEFINITIONS` list — the Anthropic tool-use format (`name`, `description`, `input_schema`)
+- `execute_tool()` dispatcher
+
+Compare to `starter-monitor/monitor.py` — same checks, now wrapped as callable tools that Claude can discover and invoke.
+
+**Step 2 — The Agentic Loop (15 min)**
+
+Walk through [`starter-agent/agent.py`](../../examples/starter-agent/agent.py):
+1. Send initial message to Claude with system prompt + tool definitions
+2. **While loop:** if `stop_reason == "tool_use"`, extract the tool call, execute it via `execute_tool()`, send the result back
+3. Repeat until `stop_reason == "end_turn"` — Claude has its final assessment
+
+Run it live:
+```bash
+ANTHROPIC_API_KEY=your-key python run_agent.py --verbose
 ```
-Prompt: Write a Python class called DataQualityChecker that:
-- Takes a BigQuery client and a table reference
-- Runs these checks: [list checks]
-- Returns a structured report with severity levels (critical, warning, info)
-- Logs all results
-```
 
-**Step 2 — AI-Powered Anomaly Classification (10 min)**
-Use Claude Code or Claude API to analyze check results:
-- Feed quality check output to Claude
-- Ask it to classify the severity and likely root cause
-- Generate a human-readable summary with recommended actions
+Participants see Claude choosing which tools to call, reading results, and deciding what to do next in real time.
 
-Show how to build a simple function that calls the Claude API with check results and gets back structured analysis.
+**Step 3 — Human-in-the-Loop (10 min)**
 
-**Step 3 — Alert and Act (10 min)**
-Wire it together:
-- Quality checks run on a schedule (cron, Cloud Scheduler, or Airflow)
-- Results go to Claude for analysis
-- Critical issues trigger Slack/email alerts with AI-generated context
-- Optional: auto-remediation for known issue types (e.g., re-run a failed load)
+Not everything should be automated. Discuss guardrails:
+- **Auto-approve list:** Read-only checks (`check_row_count`, `check_null_percentage`) are safe to run without asking
+- **Require confirmation:** Actions with side effects (`apply_fix` with `dry_run=False`, `send_alert` with severity "critical") should pause for human approval
+- **The `dry_run` pattern:** `apply_fix` defaults to `dry_run=True` — Claude can propose fixes, but nothing happens until a human approves
 
-**Step 4 — Human-in-the-Loop (5 min)**
-Discuss guardrails:
-- What should the agent do automatically vs. ask for approval?
-- How to log agent actions for audit
-- When to page a human
+Show how to add an approval gate in the loop: before executing `apply_fix` with `dry_run=False`, prompt the user for confirmation.
 
 ### Practice (25 min)
 
 > **Choose your path based on your experience level:**
 >
-> **If this is new to you** — Start from the [starter monitor](../../examples/starter-monitor/). Copy it into your capstone repo, run it with sample data, then adapt the checks to match your pipeline's data.
+> **If this is new to you** — Copy [`starter-agent/`](../../examples/starter-agent/) into your capstone repo. Run it with sample data (`python run_agent.py --offline`), then with your API key (`python run_agent.py --verbose`). Customize the tool checks in `tools.py` for your pipeline's data.
 >
-> **If you're experienced** — Build your monitoring from scratch. Add schema drift detection, custom anomaly thresholds, or multi-table checks. Use the Claude API directly for classification.
+> **If you're experienced** — Build your agent from scratch. Define your own tools (query BigQuery, check Airflow DAG status, validate dbt model output). Implement the agentic loop. Try integrating an MCP server using the [MCP Setup Guide](../../resources/mcp-setup-guide.md).
 
-Participants add monitoring to their capstone:
-- At minimum: 3 data quality checks + alerting
-- Stretch: AI-powered anomaly classification
+Participants add an agent to their capstone:
+- At minimum: 3 data quality check tools + agentic loop
+- Stretch: Custom tools, MCP integration, approval gates
 - Push to GitHub
 
 ### Debrief (15 min)
+- What did Claude choose to do that surprised you?
 - What would you trust an agent to do automatically?
 - Where do you want human oversight?
+- What tools would you give an agent for YOUR pipeline?
 
 ## Async Challenge
 
 ### Task
-Add monitoring and automation to your capstone pipeline:
+Add an AI agent to your capstone pipeline:
 
-1. **Quality checks:** At least 3 automated checks (freshness, schema, values)
-2. **AI analysis:** Feed check results to Claude API for classification and recommendations
-3. **Alerting:** When checks fail, generate an actionable alert (even if it's just a log/print for now)
-4. **Documentation:** Add a "Monitoring" section to your README
+1. **Tool definitions:** Define at least 3 quality check tools in Anthropic tool-use format (name, description, input_schema)
+2. **Agentic loop:** Implement the while loop — agent runs checks, analyzes results, and produces an assessment
+3. **Human-in-the-loop:** At least one tool requires approval before execution (e.g., `apply_fix` with `dry_run=False`)
+4. **Documentation:** Add an "Agent Monitoring" section to your capstone README explaining what the agent does and how to run it
 
 ### Stretch Goals
-- Schedule checks to run automatically
-- Add auto-remediation for one failure type
-- Build a simple dashboard or summary report
+- Integrate an MCP server (BigQuery or SQLite) — see [MCP Setup Guide](../../resources/mcp-setup-guide.md)
+- Add auto-remediation for one failure type (with dry_run safety)
+- Schedule agent runs (cron, Cloud Scheduler, or Airflow)
+- Add more tools: query BigQuery for investigation, check Airflow DAG status, validate dbt test results
 
 Push to GitHub, share in community with `#de-session4`.
 
-**Cost Check:** Open your [GCP Billing Dashboard](https://console.cloud.google.com/billing) and note your current spend in your learning journal. Compare with last session.
+**Cost Check:** Open your [GCP Billing Dashboard](https://console.cloud.google.com/billing) and note your current spend in your learning journal. A typical agent run with 3-5 tool calls costs ~$0.02-0.05 with Claude Sonnet.
 
-> **Falling behind?** Copy the [starter monitor](../../examples/starter-monitor/) into your capstone repo — it gives you working quality checks and a Claude API wrapper out of the box. See [Checkpoints](../../resources/checkpoints.md) to catch up on pipeline and infrastructure too.
+> **Falling behind?** Two options:
+> - **Full agent pattern:** Copy [`starter-agent/`](../../examples/starter-agent/) — gives you tools, agentic loop, and offline fallback
+> - **Simpler alternative:** Copy [`starter-monitor/`](../../examples/starter-monitor/) — one API call for classification, no loop needed
+>
+> Both work for your capstone. See [Checkpoints](../../resources/checkpoints.md) to catch up on pipeline and infrastructure too.
 
 ## Resources
-- [Claude API Documentation](https://docs.anthropic.com/en/api/getting-started)
+- [Anthropic Tool Use Documentation](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
+- [Claude API Quickstart](../../resources/claude-api-quickstart.md) (includes tool-use section)
+- [MCP Setup Guide](../../resources/mcp-setup-guide.md) (BigQuery, SQLite, and more)
 - [BigQuery Information Schema](https://cloud.google.com/bigquery/docs/information-schema-intro) (useful for schema drift detection)
 - [Great Expectations](https://greatexpectations.io/) (data quality framework, for reference)
 - [Soda](https://www.soda.io/) (another data quality tool, for reference)

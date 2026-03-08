@@ -35,22 +35,25 @@ How to use:
 3. Run `terraform init && terraform plan`
 4. Run `terraform apply` when ready
 
-### Session 4 Checkpoint — Pipeline + Infra + Monitoring
-**Source:** Everything from Session 3, plus [`examples/starter-monitor/`](../examples/starter-monitor/)
+### Session 4 Checkpoint — Pipeline + Infra + Agent Monitoring
+**Source:** Everything from Session 3, plus [`examples/starter-agent/`](../examples/starter-agent/)
 
 What's included:
-- A `DataQualityChecker` class with row count, null percentage, and freshness checks
-- Claude API wrapper for classifying check results and recommending actions
-- Orchestrator script that runs checks and calls Claude
-- Sample data for offline testing (no API key required)
+- Data quality check tools (row count, null %, freshness, schema drift) in Anthropic tool-use format
+- Agentic loop — Claude decides which tools to call and produces an assessment
+- Alert and fix actions with dry_run safety
+- Offline fallback for testing without an API key
+- Sample data (same weather records as starter-monitor)
 
 How to use:
 1. Start from your Session 3 checkpoint (or copy the examples if you haven't yet)
-2. Copy `starter-monitor/` into your capstone repo
-3. Run `python monitor.py` to verify checks work with sample data
-4. Run `python run_monitor.py --offline` to test the full flow without an API key
-5. Set `ANTHROPIC_API_KEY` and run `python run_monitor.py` for Claude-powered analysis
-6. Customize the checks in `monitor.py` for your pipeline's data
+2. Copy `starter-agent/` into your capstone repo
+3. Run `python run_agent.py --offline` to verify checks work without an API key
+4. Set `ANTHROPIC_API_KEY` and run `python run_agent.py --verbose` to see the agent in action
+5. Customize the tools in `tools.py` for your pipeline's data
+6. Add new tools to `TOOL_DEFINITIONS` — Claude will discover and use them automatically
+
+**Simpler alternative:** [`examples/starter-monitor/`](../examples/starter-monitor/) still works for capstone — it uses Claude as a one-shot classifier rather than an autonomous agent. Use it if you want a simpler starting point.
 
 ## Tips
 - **Don't just copy and present** — customize the pipeline with your own data, transformations, or monitoring rules

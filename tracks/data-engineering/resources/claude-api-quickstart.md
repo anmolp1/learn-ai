@@ -212,3 +212,94 @@ if __name__ == "__main__":
     )
     print(response)
 ```
+
+## Tool Use and Agentic Patterns
+
+The Claude API supports **tool use** — you define tools (functions) that Claude can call, and Claude decides when to use them. This is the foundation for building agents.
+
+### Defining Tools
+
+Tools are defined as a list of dictionaries with `name`, `description`, and `input_schema`:
+
+```python
+tools = [
+    {
+        "name": "check_row_count",
+        "description": "Check that the dataset has at least a minimum number of rows.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "min_expected": {
+                    "type": "integer",
+                    "description": "Minimum expected row count",
+                }
+            },
+            "required": [],
+        },
+    }
+]
+```
+
+Pass `tools=tools` to `client.messages.create()` and Claude will see these tools as available actions.
+
+### Handling Tool Calls
+
+When Claude wants to call a tool, the response has `stop_reason == "tool_use"` and includes a `tool_use` content block:
+
+```python
+response = client.messages.create(
+    model="claude-sonnet-4-20250514",
+    max_tokens=4096,
+    tools=tools,
+    messages=messages,
+)
+
+# Check if Claude wants to call a tool
+for block in response.content:
+    if block.type == "tool_use":
+        tool_name = block.name      # e.g., "check_row_count"
+        tool_input = block.input    # e.g., {"min_expected": 5}
+        tool_id = block.id          # unique ID for this tool call
+```
+
+### The Agentic Loop
+
+An agent is a while loop: send tools to Claude, execute what it calls, send results back, repeat until Claude is done.
+
+```python
+messages = [{"role": "user", "content": "Check this data for quality issues."}]
+
+while True:
+    response = client.messages.create(
+        model="claude-sonnet-4-20250514",
+        max_tokens=4096,
+        tools=tools,
+        messages=messages,
+    )
+
+    if response.stop_reason == "end_turn":
+        # Claude is done — extract final text
+        print(response.content[0].text)
+        break
+
+    # Execute tool calls and collect results
+    tool_results = []
+    for block in response.content:
+        if block.type == "tool_use":
+            result = execute_my_tool(block.name, block.input)
+            tool_results.append({
+                "type": "tool_result",
+                "tool_use_id": block.id,
+                "content": result,
+            })
+
+    # Send Claude's response + tool results back for the next iteration
+    messages.append({"role": "assistant", "content": response.content})
+    messages.append({"role": "user", "content": tool_results})
+```
+
+### Cost Note
+
+Tool definitions add ~500-1000 tokens to each API call (they're included in the system prompt). A typical agent run with 3-5 tool calls costs ~$0.02-0.05 with Claude Sonnet.
+
+For a complete working example, see [`examples/starter-agent/agent.py`](../examples/starter-agent/agent.py).
