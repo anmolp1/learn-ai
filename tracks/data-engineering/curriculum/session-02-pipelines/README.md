@@ -22,7 +22,7 @@ Key principle: AI writes the first draft. You own the final version.
 
 **Step 1 — Ingestion (15 min)**
 Use Claude to generate a Python script that:
-- Hits a public API (e.g., OpenWeather, GitHub API, any free API)
+- Hits a public API (e.g., USGS Earthquake, Open-Meteo, GitHub Events, NYC Open Data)
 - Handles pagination, rate limiting, error retries
 - Writes raw data to a staging location (GCS or local)
 

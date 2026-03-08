@@ -120,22 +120,18 @@ Share in the community space with `#de-baseline`.
 
 You'll build a real data pipeline over the next 6 sessions. Pick a project now — you can always adjust later.
 
-### Starter Options (pick one or bring your own)
+### Choose Your Capstone Project
 
-| Option | Data Source | Difficulty | What You'll Build |
-|--------|-----------|------------|-------------------|
-| **Weather Pipeline** | OpenWeather API (free tier) | Beginner-friendly | Ingest hourly weather > clean + aggregate > load to BigQuery > monitor for anomalies |
-| **E-Commerce Analytics** | Provided CSV (`examples/ecommerce_transactions.csv`) | Beginner-friendly | Ingest transactions > clean + segment customers > revenue metrics > data quality checks |
-| **GitHub Activity Monitor** | GitHub API (no auth needed for public repos) | Intermediate | Ingest repo events > classify by type > trend analysis > weekly summary |
+Pick one of these four vetted projects. Each uses a free, stable data source and fits within GCP free tier. See the [capstone guidelines](../../capstone/guidelines.md) for full details on each project.
+
+| Option | Data Source | What You'll Build |
+|--------|-----------|-------------------|
+| **Earthquake Monitor** | USGS Earthquake API (free, no key needed) | Ingest real-time earthquake events → geographic enrichment → impact classification → alert on significant events |
+| **NYC 311 Complaint Analyzer** | NYC Open Data SODA API (free app token) | Ingest service requests → classify complaints → geographic aggregation → monitor for volume spikes |
+| **GitHub Activity Tracker** | GitHub Events API (free with personal token) | Ingest repo events → classify by activity type → trend analysis → detect unusual patterns |
+| **Weather Analytics** | Open-Meteo API (free, no key needed) | Ingest forecast + historical weather → daily aggregation → forecast accuracy tracking → extreme weather alerts |
 
 See [Data Sources](../../resources/data-sources.md) for API endpoints, sample responses, and starter code.
-
-### Bring Your Own
-If you have a data source from work or a personal project, you can use that instead. Good capstone projects have:
-- A real or realistic data source (public API, open dataset, or your own data)
-- 3+ transformation steps
-- Cloud deployment (GCP/BigQuery)
-- Something you actually care about
 
 ## Intake Form
 1. Your name and current role
